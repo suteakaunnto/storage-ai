@@ -1,0 +1,788 @@
+2026-10-22 00:01:11 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-22 00:01:24 | WARNING | ccbot.engine       | ブリッジエラー(1): game not ready
+2026-10-22 00:01:25 | WARNING | ccbot.engine       | ブリッジエラー(2): game not ready
+2026-10-22 00:01:25 | WARNING | ccbot.engine       | ブリッジエラー(3): game not ready
+2026-10-22 00:01:25 | WARNING | ccbot.engine       | ブリッジエラー(4): game not ready
+2026-10-22 00:01:26 | WARNING | ccbot.engine       | ブリッジエラー(5): game not ready
+2026-10-22 00:01:26 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-22 00:03:03 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-22 00:03:03 | ERROR   | ccbot.engine       | バックアップに失敗: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 00:03:30 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-22 06:53:10 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-22 06:53:10 | ERROR   | ccbot.engine       | バックアップに失敗: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 08:30:29 | WARNING | ccbot.bridge       | goto で例外 (Page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://orteil.dashnet.org/cookieclicker/
+Call log:
+  - navigating to "https://orteil.dashnet.org/cookieclicker/", waiting until "domcontentloaded"
+) - 読み込み継続を待ちます
+2026-10-22 08:30:51 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-22 09:47:49 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-22 09:47:49 | ERROR   | ccbot.engine       | バックアップに失敗: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:07:05 | WARNING | ccbot.bridge       | goto で例外 (Page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://orteil.dashnet.org/cookieclicker/
+Call log:
+  - navigating to "https://orteil.dashnet.org/cookieclicker/", waiting until "domcontentloaded"
+) - 読み込み継続を待ちます
+2026-10-22 14:07:10 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-22 14:07:24 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-22 14:07:24 | WARNING | ccbot.engine       | ブリッジエラー(1): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:07:25 | WARNING | ccbot.engine       | ブリッジエラー(2): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:07:25 | WARNING | ccbot.engine       | ブリッジエラー(3): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:07:26 | WARNING | ccbot.engine       | ブリッジエラー(4): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:07:26 | WARNING | ccbot.engine       | ブリッジエラー(5): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:07:26 | WARNING | ccbot.engine       | ブリッジエラー(6): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:07:27 | WARNING | ccbot.engine       | ブリッジエラー(7): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:07:27 | WARNING | ccbot.engine       | ブリッジエラー(8): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:07:27 | WARNING | ccbot.bridge       | ページを再読み込みします (auto recovery)
+2026-10-22 14:07:27 | ERROR   | ccbot.bridge       | 再読み込みに失敗: Page.reload: Target page, context or browser has been closed
+2026-10-22 14:08:59 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-22 14:22:41 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-22 14:22:41 | WARNING | ccbot.engine       | ブリッジエラー(1): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:22:41 | WARNING | ccbot.engine       | ブリッジエラー(2): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:22:42 | WARNING | ccbot.engine       | ブリッジエラー(3): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:22:42 | WARNING | ccbot.engine       | ブリッジエラー(4): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:22:43 | WARNING | ccbot.engine       | ブリッジエラー(5): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:22:43 | WARNING | ccbot.engine       | ブリッジエラー(6): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:22:43 | WARNING | ccbot.engine       | ブリッジエラー(7): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:22:44 | WARNING | ccbot.engine       | ブリッジエラー(8): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 14:22:44 | WARNING | ccbot.bridge       | ページを再読み込みします (auto recovery)
+2026-10-22 14:22:44 | ERROR   | ccbot.bridge       | 再読み込みに失敗: Page.reload: Target page, context or browser has been closed
+2026-10-22 14:24:33 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-22 20:49:31 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-22 20:49:31 | ERROR   | ccbot.engine       | バックアップに失敗: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-22 20:54:24 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-22 20:54:25 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-23 06:52:08 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-23 06:52:08 | ERROR   | ccbot.engine       | バックアップに失敗: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-23 14:28:27 | WARNING | ccbot.bridge       | goto で例外 (Page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://orteil.dashnet.org/cookieclicker/
+Call log:
+  - navigating to "https://orteil.dashnet.org/cookieclicker/", waiting until "domcontentloaded"
+) - 読み込み継続を待ちます
+2026-10-23 14:28:34 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-24 11:26:13 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-24 11:26:13 | ERROR   | ccbot.engine       | バックアップに失敗: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-25 11:10:22 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-25 11:14:43 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-25 11:14:43 | WARNING | ccbot.engine       | ブリッジエラー(1): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-25 11:14:44 | WARNING | ccbot.engine       | ブリッジエラー(2): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-25 11:14:44 | WARNING | ccbot.engine       | ブリッジエラー(3): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-25 11:14:44 | WARNING | ccbot.engine       | ブリッジエラー(4): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-25 11:14:45 | WARNING | ccbot.engine       | ブリッジエラー(5): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-25 11:14:45 | WARNING | ccbot.engine       | ブリッジエラー(6): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-25 11:14:46 | WARNING | ccbot.engine       | ブリッジエラー(7): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-25 11:14:46 | WARNING | ccbot.engine       | ブリッジエラー(8): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-25 11:14:46 | WARNING | ccbot.bridge       | ページを再読み込みします (auto recovery)
+2026-10-25 11:14:46 | ERROR   | ccbot.bridge       | 再読み込みに失敗: Page.reload: Target page, context or browser has been closed
+2026-10-25 11:16:48 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-26 10:10:18 | WARNING | ccbot.engine       | 終了時はゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261026-101018-periodic.txt -> save-20261026-101018-exit-fallback.txt。これは終了時点の最新状態とは限りません。
+2026-10-26 11:53:04 | WARNING | ccbot.bridge       | goto で例外 (Page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://orteil.dashnet.org/cookieclicker/
+Call log:
+  - navigating to "https://orteil.dashnet.org/cookieclicker/", waiting until "domcontentloaded"
+) - 読み込み継続を待ちます
+2026-10-26 11:53:10 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-26 11:53:22 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-26 11:53:22 | WARNING | ccbot.engine       | 終了時はゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261026-115310-periodic.txt -> save-20261026-115322-exit-fallback.txt。これは終了時点の最新状態とは限りません。
+2026-10-26 13:29:09 | WARNING | ccbot.bridge       | goto で例外 (Page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://orteil.dashnet.org/cookieclicker/
+Call log:
+  - navigating to "https://orteil.dashnet.org/cookieclicker/", waiting until "domcontentloaded"
+) - 読み込み継続を待ちます
+2026-10-26 13:29:15 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-26 13:29:57 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-26 13:29:57 | WARNING | ccbot.engine       | ブリッジエラー(1): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-26 13:29:57 | WARNING | ccbot.engine       | ブリッジエラー(2): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-26 13:29:58 | WARNING | ccbot.engine       | ブリッジエラー(3): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-26 13:29:58 | WARNING | ccbot.engine       | ブリッジエラー(4): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-26 13:29:58 | WARNING | ccbot.engine       | ブリッジエラー(5): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-26 13:29:59 | WARNING | ccbot.engine       | ブリッジエラー(6): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-26 13:29:59 | WARNING | ccbot.engine       | ブリッジエラー(7): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-26 13:30:00 | WARNING | ccbot.engine       | ブリッジエラー(8): drainEvents 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-26 13:30:00 | WARNING | ccbot.bridge       | ページを再読み込みします (auto recovery)
+2026-10-26 13:30:00 | ERROR   | ccbot.bridge       | 再読み込みに失敗: Page.reload: Target page, context or browser has been closed
+2026-10-26 13:30:07 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-26 13:30:07 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-26 13:30:07 | WARNING | ccbot.engine       | 終了時はゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261026-132915-periodic.txt -> save-20261026-133007-exit-fallback.txt。これは終了時点の最新状態とは限りません。
+2026-10-27 07:47:38 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-27 07:47:40 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-27 17:31:42 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-27 17:31:42 | WARNING | ccbot.engine       | 終了時はゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261027-172524-periodic.txt -> save-20261027-173142-exit-fallback.txt。これは終了時点の最新状態とは限りません。
+2026-10-27 17:38:45 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-28 08:47:44 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-28 08:47:44 | WARNING | ccbot.engine       | 終了時はゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261028-083559-periodic.txt -> save-20261028-084744-exit-fallback.txt。これは終了時点の最新状態とは限りません。
+2026-10-28 09:00:11 | WARNING | ccbot.engine       | 終了時はゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261028-090011-periodic.txt -> save-20261028-090011-exit-fallback.txt。これは終了時点の最新状態とは限りません。
+2026-10-28 09:20:47 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): RuntimeError: Target page, context or browser has been closed
+2026-10-28 09:20:47 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261028-092047-periodic.txt -> save-20261028-092047-exit-fallback.txt (約0秒前)。これは終了時点の最新状態とは限りません。
+2026-10-28 09:22:06 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-29 07:25:24 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-29 07:25:24 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): BridgeError: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-29 07:25:24 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、内部チェックポイントを退避しました: source=last_live_checkpoint.txt -> save-20261029-072524-exit-fallback.txt (約37秒前)。最後の操作はチェックポイント以降に失われる可能性があります。
+2026-10-29 08:41:11 | WARNING | ccbot.bridge       | goto で例外 (Page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://orteil.dashnet.org/cookieclicker/
+Call log:
+  - navigating to "https://orteil.dashnet.org/cookieclicker/", waiting until "domcontentloaded"
+) - 読み込み継続を待ちます
+2026-10-29 08:41:16 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-31 13:36:53 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): RuntimeError: Target page, context or browser has been closed
+2026-10-31 13:36:53 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261031-133653-periodic.txt -> save-20261031-133653-exit-fallback.txt (約0秒前)。これは終了時点の最新状態とは限りません。
+2026-10-31 13:39:47 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-31 15:00:41 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 15:00:41 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): BridgeError: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 15:00:41 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、内部チェックポイントを退避しました: source=last_live_checkpoint.txt -> save-20261031-150041-exit-fallback.txt (約45秒前)。最後の操作はチェックポイント以降に失われる可能性があります。
+2026-10-31 18:11:22 | WARNING | ccbot.config       | 禁止対象のスクルーイヤを既存パンテオン設定から除外しました
+2026-10-31 18:11:22 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): RuntimeError: Target page, context or browser has been closed
+2026-10-31 18:11:23 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261031-181122-periodic.txt -> save-20261031-181123-exit-fallback.txt (約0秒前)。これは終了時点の最新状態とは限りません。
+2026-10-31 18:20:26 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 18:20:26 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 18:20:26 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 18:20:26 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 18:20:26 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 18:20:26 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 18:20:26 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 18:20:30 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 18:20:30 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 18:20:30 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:30 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:30 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:30 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:30 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:30 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:30 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:30 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:30 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 18:20:31 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 18:20:31 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:20:31 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:20:31 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:20:31 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 18:20:35 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-p33a5, consider using turnstile.remove() to clean up a widget.
+2026-10-31 18:20:39 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 18:20:39 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 18:20:39 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 18:20:39 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 18:20:39 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:20:39 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:20:39 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 18:20:39 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:39 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:39 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:39 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:39 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:39 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:39 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:39 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:42 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-htce9, consider using turnstile.remove() to clean up a widget.
+2026-10-31 18:20:47 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:47 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:47 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:47 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:47 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:47 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:20:47 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:47 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 18:20:48 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:20:48 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:20:48 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:20:48 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 18:20:48 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 18:20:48 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 18:20:48 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 18:20:48 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 18:20:52 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-p8gmp, consider using turnstile.remove() to clean up a widget.
+2026-10-31 18:21:00 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 18:21:00 | WARNING | ccbot.bridge       | 再注入に失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 18:21:00 | ERROR   | ccbot.engine       | ブラウザの起動に失敗しました (1/3): BridgeError: setConfig 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 18:21:00 | WARNING | ccbot.engine       | 10 秒後に再試行します (2/3)
+2026-10-31 18:21:12 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 18:21:12 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 18:21:12 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 18:21:12 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 18:21:12 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 18:21:12 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 18:21:12 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 18:21:17 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:21:17 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:21:17 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 18:21:17 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 18:21:17 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:21:17 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 18:21:17 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 18:21:17 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 18:21:17 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 18:21:17 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 18:21:17 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 18:21:18 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 18:21:18 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:21:18 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:21:18 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 18:21:18 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 18:21:21 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Ignored message from unexpected source for event: food.
+2026-10-31 18:21:22 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-sk92o, consider using turnstile.remove() to clean up a widget.
+2026-10-31 18:21:28 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 18:21:28 | WARNING | ccbot.bridge       | 再注入に失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 18:21:28 | ERROR   | ccbot.engine       | ブラウザの起動に失敗しました (2/3): BridgeError: setConfig 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 18:21:28 | WARNING | ccbot.engine       | 10 秒後に再試行します (3/3)
+2026-10-31 18:21:41 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 18:21:41 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 18:21:41 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 18:21:41 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 18:21:41 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 18:21:41 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 18:21:41 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 18:21:44 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 18:21:44 | WARNING | ccbot.bridge       | 再注入に失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 18:21:44 | ERROR   | ccbot.engine       | ブラウザの起動に失敗しました (3/3): BridgeError: setConfig 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 18:21:44 | ERROR   | ccbot.engine       | ブラウザを起動できませんでした。install.bat を実行したか、doctor.bat で環境を確認してください。
+2026-10-31 18:21:44 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、内部チェックポイントを退避しました: source=last_live_checkpoint.txt -> save-20261031-182144-exit-fallback.txt (約12108秒前)。最後の操作はチェックポイント以降に失われる可能性があります。
+2026-10-31 19:05:59 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 19:05:59 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 19:05:59 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 19:05:59 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 19:05:59 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 19:05:59 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 19:05:59 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 19:06:04 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 19:06:04 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 19:06:04 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 19:06:05 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 19:06:05 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 19:06:05 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 19:06:05 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 19:06:05 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 19:06:05 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 19:06:05 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 19:06:05 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 19:06:05 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 19:06:05 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 19:06:05 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 19:06:05 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 19:07:03 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 19:07:03 | WARNING | ccbot.bridge       | 再注入に失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 19:07:03 | ERROR   | ccbot.engine       | ブラウザの起動に失敗しました (1/3): BridgeError: setConfig 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 19:07:09 | WARNING | ccbot.engine       | 設定の反映に失敗しました
+2026-10-31 19:07:09 | WARNING | ccbot.engine       | ゲームが ready になりませんでした (人間認証や回線の問題の可能性があります)。監視は続けます。
+2026-10-31 19:07:09 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): BridgeError: game not ready
+2026-10-31 19:07:10 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、内部チェックポイントを退避しました: source=last_live_checkpoint.txt -> save-20261031-190710-exit-fallback.txt (約14833秒前)。最後の操作はチェックポイント以降に失われる可能性があります。
+2026-10-31 19:07:10 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 20:20:05 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:20:05 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 20:20:05 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 20:20:05 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 20:20:05 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 20:20:05 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 20:20:05 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:20:08 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:20:08 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:20:08 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:08 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:08 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:08 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:08 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:08 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:08 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:08 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:08 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:20:09 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:20:09 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:20:09 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:20:09 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:20:10 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:20:28 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:20:28 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-31 20:20:43 | WARNING | ccbot.engine       | ブリッジエラー(1): game not ready
+2026-10-31 20:20:43 | WARNING | ccbot.engine       | ブリッジエラー(2): game not ready
+2026-10-31 20:20:44 | WARNING | ccbot.engine       | ブリッジエラー(3): game not ready
+2026-10-31 20:20:44 | WARNING | ccbot.engine       | ブリッジエラー(4): game not ready
+2026-10-31 20:20:44 | WARNING | ccbot.engine       | ブリッジエラー(5): game not ready
+2026-10-31 20:20:45 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:20:45 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:20:45 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:20:45 | WARNING | ccbot.engine       | ブリッジエラー(6): game not ready
+2026-10-31 20:20:45 | WARNING | ccbot.engine       | ブリッジエラー(7): game not ready
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:20:46 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:46 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:46 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:46 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:46 | WARNING | ccbot.engine       | ブリッジエラー(8): game not ready
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       | ページを再読み込みします (auto recovery)
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 20:20:46 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:20:48 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:20:48 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:48 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:48 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:48 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:48 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:48 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:20:48 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:48 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:20:49 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:20:49 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:20:49 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:20:49 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:20:49 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:20:49 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:20:49 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:21:13 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:21:13 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:21:13 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:21:14 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:21:14 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:21:14 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:21:14 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:21:14 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:21:15 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:21:15 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:21:15 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:21:15 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:21:16 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:21:17 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:21:17 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:21:17 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:21:31 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-31 20:22:46 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 20:22:46 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): BridgeError: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 20:22:46 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、内部チェックポイントを退避しました: source=last_live_checkpoint.txt -> save-20261031-202246-exit-fallback.txt (約15秒前)。最後の操作はチェックポイント以降に失われる可能性があります。
+2026-10-31 20:28:06 | WARNING | ccbot.engine       | ゲーム側で人間認証 (Cloudflare) の解除待ちです。ブラウザ窓で確認してください。
+2026-10-31 20:28:06 | WARNING | ccbot.config       | 禁止対象のスクルーイヤを既存パンテオン設定から除外しました
+2026-10-31 20:28:07 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): RuntimeError: Target page, context or browser has been closed
+2026-10-31 20:28:07 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261031-202807-periodic.txt -> save-20261031-202807-exit-fallback.txt (約0秒前)。これは終了時点の最新状態とは限りません。
+2026-10-31 20:29:22 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-31 20:29:30 | WARNING | ccbot.engine       | ゲーム側で人間認証 (Cloudflare) の解除待ちです。ブラウザ窓で確認してください。
+2026-10-31 20:29:33 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:29:33 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:29:33 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:29:33 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:29:34 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:29:34 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:29:34 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:34 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:34 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:34 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:34 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:34 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:34 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:34 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:34 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:29:37 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-h50ts, consider using turnstile.remove() to clean up a widget.
+2026-10-31 20:29:40 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:29:40 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:29:40 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:29:41 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:29:41 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:29:41 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:29:41 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:29:41 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:41 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:41 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:41 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:41 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:41 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:41 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:41 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:46 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-hkcm4, consider using turnstile.remove() to clean up a widget.
+2026-10-31 20:29:51 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:51 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:51 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:51 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:51 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:51 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:29:51 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:51 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:29:53 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:29:53 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:29:53 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:29:53 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:29:53 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:29:53 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:29:53 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:29:53 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:30:30 | WARNING | ccbot.engine       | ゲーム側で人間認証 (Cloudflare) の解除待ちです。ブラウザ窓で確認してください。
+2026-10-31 20:30:54 | WARNING | ccbot.engine       | 設定をエンジンへ反映できませんでした: {'ok': False, 'error': 'ゲームページの読み込み中、またはCloudflare認証の確認待ちです'}
+2026-10-31 20:31:00 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-bkb3h, consider using turnstile.remove() to clean up a widget.
+2026-10-31 20:31:09 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:31:09 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:31:09 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:31:10 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:31:10 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:31:10 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:31:10 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:31:10 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:31:10 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:31:10 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:31:10 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:31:10 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:31:10 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:31:10 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:31:11 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:31:14 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-h8zmc, consider using turnstile.remove() to clean up a widget.
+2026-10-31 20:31:30 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:31:30 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:31:30 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:31:30 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:31:30 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:31:30 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:31:30 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:31:30 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:31:30 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:31:30 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:31:30 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:31:30 | WARNING | ccbot.engine       | ゲーム側で人間認証 (Cloudflare) の解除待ちです。ブラウザ窓で確認してください。
+2026-10-31 20:31:31 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:31:31 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:31:31 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:31:31 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:31:31 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:31:52 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-31 20:31:53 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:31:53 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:32:13 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 20:32:47 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-31 20:33:26 | WARNING | ccbot.engine       | ゲーム側で人間認証 (Cloudflare) の解除待ちです。ブラウザ窓で確認してください。
+2026-10-31 20:33:30 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 20:33:30 | WARNING | ccbot.bridge       | ページを再読み込みします (auto recovery)
+2026-10-31 20:33:30 | ERROR   | ccbot.bridge       | 再読み込みに失敗: Page.reload: Target page, context or browser has been closed
+2026-10-31 20:33:37 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:33:37 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 20:33:37 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 20:33:37 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 20:33:37 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 20:33:37 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 20:33:37 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:33:40 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:33:40 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:33:40 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:33:40 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:33:40 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:33:40 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:33:40 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:33:41 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 20:33:41 | WARNING | ccbot.bridge       | 再注入に失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 20:33:41 | ERROR   | ccbot.engine       | ブラウザの再起動に失敗: setConfig 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 20:33:41 | WARNING | ccbot.bridge       | ページを再読み込みします (auto recovery)
+2026-10-31 20:33:41 | ERROR   | ccbot.bridge       | 再読み込みに失敗: Page.reload: Target page, context or browser has been closed
+2026-10-31 20:33:46 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 20:33:46 | WARNING | ccbot.bridge       | 再注入に失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 20:33:46 | ERROR   | ccbot.engine       | ブラウザの再起動に失敗: setConfig 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 20:33:46 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): BridgeError: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 20:33:46 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261031-203247-periodic.txt -> save-20261031-203346-exit-fallback.txt (約59秒前)。これは終了時点の最新状態とは限りません。
+2026-10-31 20:36:43 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:36:43 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 20:36:43 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 20:36:43 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 20:36:43 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 20:36:43 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 20:36:43 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:36:49 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:36:49 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:36:49 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:36:49 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:36:49 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:36:49 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:36:49 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:36:50 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:36:50 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:36:50 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:36:50 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:36:50 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:36:50 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:36:50 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:36:50 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:36:57 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 20:36:57 | WARNING | ccbot.bridge       | 再注入に失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 20:36:57 | ERROR   | ccbot.engine       | ブラウザの起動に失敗しました (1/3): BridgeError: setConfig 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-10-31 20:37:13 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:37:13 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 20:37:13 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 20:37:13 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 20:37:13 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 20:37:13 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 20:37:13 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 20:37:20 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:37:20 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:37:20 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:37:20 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:20 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:20 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:20 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:20 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:20 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:20 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:20 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:21 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:37:21 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:37:21 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:37:21 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:37:21 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:37:30 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:30 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:30 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:30 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:30 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:30 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:30 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:30 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:31 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:37:32 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:37:32 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:37:32 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:37:32 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:37:32 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:37:32 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:37:32 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:37:37 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-ooktm, consider using turnstile.remove() to clean up a widget.
+2026-10-31 20:37:53 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:37:53 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 20:37:53 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 20:37:53 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:37:53 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:37:53 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 20:37:54 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:54 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:54 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:54 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:54 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:54 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 20:37:54 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:54 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 20:37:56 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 20:38:19 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 20:38:19 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-31 21:23:01 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-10-31 21:23:15 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 21:23:15 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-10-31 21:23:15 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-10-31 21:23:15 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-10-31 21:23:15 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-10-31 21:23:15 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-10-31 21:23:15 | WARNING | ccbot.bridge       | ==========================================================
+2026-10-31 21:23:22 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 21:23:22 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 21:23:22 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-10-31 21:23:22 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 21:23:22 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-10-31 21:23:22 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 21:23:22 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-10-31 21:23:22 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 21:23:22 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-10-31 21:23:22 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 21:23:22 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-10-31 21:23:23 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 21:23:23 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 21:23:23 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-10-31 21:23:23 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-10-31 21:23:23 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-10-31 21:23:31 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 21:23:31 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-10-31 21:23:31 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-10-31 21:23:40 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-11-02 12:38:50 | WARNING | ccbot.bridge       | goto で例外 (Page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://orteil.dashnet.org/cookieclicker/
+Call log:
+  - navigating to "https://orteil.dashnet.org/cookieclicker/", waiting until "domcontentloaded"
+) - 読み込み継続を待ちます
+2026-11-02 12:38:59 | WARNING | ccbot.bridge       | ==========================================================
+2026-11-02 12:38:59 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-11-02 12:38:59 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-11-02 12:38:59 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-11-02 12:38:59 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-11-02 12:38:59 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-11-02 12:38:59 | WARNING | ccbot.bridge       | ==========================================================
+2026-11-02 12:39:01 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:39:01 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:39:01 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-11-02 12:39:02 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:39:02 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:39:02 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:39:02 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:39:02 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:39:02 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:39:02 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:39:02 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:39:02 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:39:02 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:39:02 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-11-02 12:39:03 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-11-02 12:40:20 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-11-02 12:40:56 | WARNING | ccbot.engine       | ゲーム側で人間認証 (Cloudflare) の解除待ちです。ブラウザ窓で確認してください。
+2026-11-02 12:40:58 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:40:58 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:40:58 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-11-02 12:40:58 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:40:58 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:40:58 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:40:58 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:40:58 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:40:58 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:40:58 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:40:58 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:40:59 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:40:59 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:41:00 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-11-02 12:41:00 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-11-02 12:41:02 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-68377, consider using turnstile.remove() to clean up a widget.
+2026-11-02 12:41:05 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:41:05 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:41:05 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-11-02 12:41:05 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:41:05 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:41:05 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:41:05 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:41:05 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:41:05 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:41:05 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:41:05 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:41:06 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:41:06 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:41:06 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-11-02 12:41:06 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-11-02 12:41:18 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-11-02 12:41:32 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:41:32 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:41:32 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-11-02 12:41:33 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:41:33 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:41:33 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:41:33 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:41:33 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:41:33 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:41:33 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:41:33 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:41:33 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-11-02 12:41:34 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:41:34 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:41:34 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:41:34 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-11-02 12:41:40 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-11-02 12:44:08 | WARNING | ccbot.engine       | ゲーム側で人間認証 (Cloudflare) の解除待ちです。ブラウザ窓で確認してください。
+2026-11-02 12:44:09 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:44:09 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-02 12:44:09 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-11-02 12:44:09 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:44:09 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:44:09 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:44:09 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-02 12:44:09 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:44:09 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-02 12:44:09 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:44:09 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-02 12:44:10 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-11-02 12:44:10 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:44:10 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-02 12:44:10 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-11-02 12:44:26 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-11-05 00:46:30 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-11-05 00:46:30 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): BridgeError: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-11-05 00:46:30 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、直近の正常バックアップを退避しました: source=save-20261105-004544-periodic.txt -> save-20261105-004630-exit-fallback.txt (約46秒前)。これは終了時点の最新状態とは限りません。
+2026-11-05 15:01:25 | WARNING | ccbot.bridge       | goto で例外 (Page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://orteil.dashnet.org/cookieclicker/
+Call log:
+  - navigating to "https://orteil.dashnet.org/cookieclicker/", waiting until "domcontentloaded"
+) - 読み込み継続を待ちます
+2026-11-05 15:01:36 | WARNING | ccbot.bridge       | ==========================================================
+2026-11-05 15:01:36 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-11-05 15:01:36 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-11-05 15:01:36 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-11-05 15:01:36 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-11-05 15:01:36 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-11-05 15:01:36 | WARNING | ccbot.bridge       | ==========================================================
+2026-11-05 15:01:39 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-05 15:01:39 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-05 15:01:39 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-11-05 15:01:40 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-05 15:01:40 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-05 15:01:40 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-11-05 15:01:41 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-05 15:01:41 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-05 15:01:41 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-05 15:01:41 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-05 15:01:41 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-05 15:01:41 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-05 15:01:41 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-05 15:01:41 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-05 15:01:41 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-11-05 15:01:44 | WARNING | ccbot.bridge       | [page:warning] [Cloudflare Turnstile] Cannot find Widget cf-chl-widget-zj0ev, consider using turnstile.remove() to clean up a widget.
+2026-11-05 15:01:49 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-05 15:01:49 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-05 15:01:49 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-05 15:01:49 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-05 15:01:49 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-05 15:01:49 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-05 15:01:49 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-05 15:01:49 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-05 15:01:49 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-05 15:01:49 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-05 15:01:50 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-11-05 15:01:51 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-11-05 15:01:51 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-05 15:01:51 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-05 15:01:51 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-05 15:01:51 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-11-05 15:02:02 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+2026-11-06 10:08:54 | ERROR   | ccbot.server       | GET 処理エラー
+Traceback (most recent call last):
+  File "C:\Users\Owner\Downloads\workspace (4)\CookieClickerBot\ccbot\server.py", line 88, in do_GET
+    self._route("GET")
+    ~~~~~~~~~~~^^^^^^^
+  File "C:\Users\Owner\Downloads\workspace (4)\CookieClickerBot\ccbot\server.py", line 115, in _route
+    return self._json({"ok": True, "data": self.engine.public_state()})
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Owner\Downloads\workspace (4)\CookieClickerBot\ccbot\server.py", line 64, in _json
+    self._send(code, body, JSON_TYPE)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Owner\Downloads\workspace (4)\CookieClickerBot\ccbot\server.py", line 58, in _send
+    self.wfile.write(body)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\Owner\AppData\Local\Programs\Python\Python314\Lib\socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionAbortedError: [WinError 10053] 確立された接続がホスト コンピューターのソウトウェアによって中止されました。
+2026-11-06 11:38:25 | WARNING | ccbot.bridge       | ページが閉じられました
+2026-11-06 11:38:25 | WARNING | ccbot.engine       | 終了時セーブの取得に失敗したため再試行します (試行 1/2): BridgeError: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed
+2026-11-06 11:38:25 | WARNING | ccbot.engine       | ゲーム画面から最新セーブを取得できなかったため、内部チェックポイントを退避しました: source=last_live_checkpoint.txt -> save-20261106-113825-exit-fallback.txt (約17秒前)。最後の操作はチェックポイント以降に失われる可能性があります。
+2026-11-07 11:21:20 | WARNING | ccbot.bridge       | goto で例外 (Page.goto: net::ERR_INVALID_AUTH_CREDENTIALS at https://orteil.dashnet.org/cookieclicker/
+Call log:
+  - navigating to "https://orteil.dashnet.org/cookieclicker/", waiting until "domcontentloaded"
+) - 読み込み継続を待ちます
+2026-11-07 11:21:31 | WARNING | ccbot.bridge       | ==========================================================
+2026-11-07 11:21:31 | WARNING | ccbot.bridge       |  ゲームサイトが人間認証 (Cloudflare) を表示しています
+2026-11-07 11:21:31 | WARNING | ccbot.bridge       |  開いているブラウザ窓でチェックボックスを押してください。
+2026-11-07 11:21:31 | WARNING | ccbot.bridge       |  認証を通すと以降はプロファイルに保存されます。
+2026-11-07 11:21:31 | WARNING | ccbot.bridge       |  (headless 起動では認証を通過できないことがあります。
+2026-11-07 11:21:31 | WARNING | ccbot.bridge       |   その場合は headless=false で起動してください)
+2026-11-07 11:21:31 | WARNING | ccbot.bridge       | ==========================================================
+2026-11-07 11:21:34 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-11-07 11:21:35 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-07 11:21:35 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-07 11:21:35 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-07 11:21:35 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-07 11:21:35 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-07 11:21:35 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-07 11:21:35 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-07 11:21:35 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-07 11:21:36 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-07 11:21:36 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-07 11:21:37 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-07 11:21:37 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-07 11:21:37 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-07 11:21:37 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-11-07 11:21:37 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-11-07 11:21:39 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-07 11:21:39 | WARNING | ccbot.bridge       | [page:warning] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127
+2026-11-07 11:21:39 | WARNING | ccbot.bridge       | [page:warning] No available adapters.
+2026-11-07 11:21:39 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-07 11:21:39 | ERROR   | ccbot.bridge       | [page:error] Connecting to 'data:,' violates the following Content Security Policy directive: "connect-src 'self' https://hagen.challenges.cloudflare.com https://brunhild.challenges.cloudflare.com https://*.alg13.dnstest.challenges.cloudflare.com https://*.mldsa44.dnstest.challenges.cloudflare.com https://dnstest.dev https://ca2.cloudflarecaptcha.com https://ca1.cloudflarecaptcha.com". The action has been bloc
+2026-11-07 11:21:39 | ERROR   | ccbot.bridge       | [page:error] Fetch API cannot load data:,. Refused to connect because it violates the document's Content Security Policy.
+2026-11-07 11:21:40 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-07 11:21:40 | ERROR   | ccbot.bridge       | [page:error] %c%d font-size:0;color:transparent NaN
+2026-11-07 11:21:40 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-07 11:21:40 | ERROR   | ccbot.bridge       | [page:error] %c%o font-size:0;color:transparent {}
+2026-11-07 11:21:40 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-07 11:21:40 | WARNING | ccbot.bridge       | [page:warning] %c%d font-size:0;color:transparent NaN
+2026-11-07 11:21:40 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-07 11:21:40 | WARNING | ccbot.bridge       | [page:warning] %c%o font-size:0;color:transparent {}
+2026-11-07 11:21:41 | WARNING | ccbot.bridge       | [page:warning] OTS parsing error: Size of decompressed WOFF 2.0 is less than compressed size
+2026-11-07 11:21:50 | WARNING | ccbot.bridge       | [page:warning] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently

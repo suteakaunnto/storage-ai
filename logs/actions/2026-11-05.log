@@ -1,0 +1,1410 @@
+2026-11-05 00:45:45.094 [セーブ/backup] tag=periodic file=save-20261105-004544-periodic.txt -> bytes=5285
+2026-11-05 00:45:44.003 [ランプ/建物レベルアップ] building=Grandma level=1 cost=1 -> unlocksMinigame=False
+2026-11-05 00:45:44.008 [取引所/購入] good=バター symbol=BTR qty=3 price=15.65 mode=bull run -> cookiesSpent=215736046760.2444 cookiesSpentStr=215.736 billion stock=9 maxStock=129
+2026-11-05 00:45:44.009 [神殿/神の配置] god=リジデル、秩序の霊 slot=2 slotName=Jade displaced=リジデル、秩序の霊 -> swapsBefore=1 swapsLeft=0 swapsConsumed=1
+2026-11-05 00:45:45.910 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:45:46.018 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:45:50.739 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:45:52.620 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:45:57.016 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:45:58.239 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:45:59.001 [取引所/購入] good=バター symbol=BTR qty=13 price=15.65 mode=bull run -> cookiesSpent=934856202627.7258 cookiesSpentStr=934.856 billion stock=22 maxStock=129
+2026-11-05 00:45:59.001 [取引所/購入] good=バター symbol=BTR qty=5 price=15.65 mode=bull run -> cookiesSpent=359560077933.7407 cookiesSpentStr=359.56 billion stock=27 maxStock=129
+2026-11-05 00:46:07.984 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:46:11.450 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:46:14.017 [取引所/sell] good=バター symbol=BTR qty=27 price=19.61 avgBuy=15.161 mode=bull run -> cookiesGained=2106878906586.6052 cookiesGainedStr=2.107 trillion profitCpsSec=56.8 stock=0
+2026-11-05 00:46:22.130 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:46:24.242 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 00:46:29.066 [取引所/購入] good=クリーム symbol=CRM qty=1 price=15.637 mode=stable -> cookiesSpent=71854979633.5469 cookiesSpentStr=71.855 billion stock=1 maxStock=1
+2026-11-05 00:46:30.214 [エンジン/stopping]
+2026-11-05 00:46:30.826 [セーブ/backup-fallback] requestedTag=exit source=save-20261105-004544-periodic.txt sourceKind=periodic file=save-20261105-004630-exit-fallback.txt reason=BridgeError: exportSaveCode 呼び出し失敗: Page.evaluate: Target page, context or browser has been closed sourceAgeSec=46 -> bytes=5285
+2026-11-05 00:46:31.461 [エンジン/stopped] uptimeSec=216463.1
+2026-11-05 15:01:23.224 [管理画面/start] url=http://127.0.0.1:8765/
+2026-11-05 15:01:23.227 [エンジン/start] pid=15004 config=C:\Users\Owner\Downloads\workspace (4)\CookieClickerBot\config.json
+2026-11-05 15:02:02.481 [エンジン/config-push] keys=["ascend", "building", "clicker", "dragon", "garden", "golden", "grimoire", "housekeep", "lump", "market", "master", "pantheon", "prestige", "santa", "season", "upgrade", "wrinkler"]
+2026-11-05 15:02:02.264 [コア/エンジン接続] fps=30
+2026-11-05 15:02:02.264 [コア/ゲーム準備完了] version=2.058 cookies=2374661800685.304
+2026-11-05 15:02:02.418 [農業/種の解放を開始] seed=clover recipe=["bakerWheat", "gildmillet"]
+2026-11-05 15:02:02.419 [農業/変異スポット決定] seed=clover x=3 y=2 need=[{"key": "bakerWheat", "total": 0, "mature": 1}, {"key": "gildmillet", "total": 0, "mature": 1}]
+2026-11-05 15:02:02.420 [取引所/購入] good=バター symbol=BTR qty=19 price=15.64 mode=bull run -> cookiesSpent=1393322253017.7441 cookiesSpentStr=1.393 trillion stock=46 maxStock=129
+2026-11-05 15:02:02.466 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:02:02.714 [セーブ/backup] tag=periodic file=save-20261105-150202-periodic.txt -> bytes=5291
+2026-11-05 15:02:03.767 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:06.329 [農業/種の解放を開始] seed=clover recipe=["bakerWheat", "gildmillet"]
+2026-11-05 15:02:06.329 [農業/変異スポット決定] seed=clover x=3 y=2 need=[{"key": "bakerWheat", "total": 0, "mature": 1}, {"key": "gildmillet", "total": 0, "mature": 1}]
+2026-11-05 15:02:11.349 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:13.543 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:14.493 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:16.480 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:17.380 [取引所/購入] good=バター symbol=BTR qty=11 price=15.64 mode=bull run -> cookiesSpent=806660251747.1151 cookiesSpentStr=806.66 billion stock=57 maxStock=129
+2026-11-05 15:02:17.453 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:17.454 [取引所/購入] good=バター symbol=BTR qty=4 price=15.64 mode=bull run -> cookiesSpent=293331000635.3146 cookiesSpentStr=293.331 billion stock=61 maxStock=129
+2026-11-05 15:02:20.831 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:22.943 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:27.755 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:32.445 [取引所/購入] good=バター symbol=BTR qty=3 price=15.64 mode=bull run -> cookiesSpent=219998250476.4859 cookiesSpentStr=219.998 billion stock=64 maxStock=129
+2026-11-05 15:02:32.725 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:38.867 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:40.201 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:43.706 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:47.511 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=13.45 mode=slow rise -> cookiesSpent=126128579237.3715 cookiesSpentStr=126.129 billion stock=15 maxStock=122
+2026-11-05 15:02:50.484 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:50.525 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:55.901 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:02:57.838 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:02.575 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=14.14 mode=slow rise -> cookiesSpent=132598706320.7433 cookiesSpentStr=132.599 billion stock=17 maxStock=122
+2026-11-05 15:03:02.575 [取引所/購入] good=クリーム symbol=CRM qty=1 price=14.105 mode=stable -> cookiesSpent=66133446768.2658 cookiesSpentStr=66.133 billion stock=1 maxStock=1
+2026-11-05 15:03:06.651 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:09.433 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:11.501 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:16.127 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:20.968 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:27.434 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:28.626 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:29.359 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:30.341 [エンジン/設定更新] patch={"market": {"spendRatio": 1.6}}
+2026-11-05 15:03:30.386 [エンジン/設定更新] patch={"market": {"spendRatio": 2.6}}
+2026-11-05 15:03:30.333 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:30.378 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:30.750 [エンジン/設定更新] patch={"market": {"spendRatio": 2.6}}
+2026-11-05 15:03:30.741 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:31.044 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:32.765 [エンジン/設定更新] patch={"market": {"spendRatio": 3.6}}
+2026-11-05 15:03:32.634 [取引所/購入] good=バター symbol=BTR qty=3 price=17.032 mode=bull run -> cookiesSpent=239572957041.6575 cookiesSpentStr=239.573 billion stock=67 maxStock=129
+2026-11-05 15:03:32.757 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:33.168 [エンジン/設定更新] patch={"market": {"spendRatio": 3.6}}
+2026-11-05 15:03:33.191 [エンジン/設定更新] patch={"market": {"spendRatio": 2.6}}
+2026-11-05 15:03:33.158 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:33.182 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:33.569 [エンジン/設定更新] patch={"market": {"spendRatio": 1.6}}
+2026-11-05 15:03:33.590 [エンジン/設定更新] patch={"market": {"spendRatio": 2.6}}
+2026-11-05 15:03:33.563 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:33.581 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:34.385 [エンジン/設定更新] patch={"market": {"spendRatio": 1.6}}
+2026-11-05 15:03:34.108 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:34.374 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:34.779 [エンジン/設定更新] patch={"market": {"spendRatio": 0.6}}
+2026-11-05 15:03:34.773 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:35.585 [エンジン/設定更新] patch={"market": {"spendRatio": 0.6}}
+2026-11-05 15:03:35.578 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:37.451 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:38.021 [エンジン/設定更新] patch={"market": {"spendRatio": 0.6}}
+2026-11-05 15:03:38.014 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:40.414 [エンジン/設定更新] patch={"market": {"spendRatio": 0.8}}
+2026-11-05 15:03:40.430 [エンジン/設定更新] patch={"market": {"spendRatio": 0.8}}
+2026-11-05 15:03:40.408 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:40.424 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:40.657 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:41.225 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:03:42.815 [エンジン/設定更新] patch={"market": {"spendRatio": 0.6}}
+2026-11-05 15:03:42.809 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:45.236 [エンジン/設定更新] patch={"market": {"spendRatio": 0.8}}
+2026-11-05 15:03:45.230 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:47.668 [エンジン/設定更新] patch={"market": {"spendRatio": 0.6}}
+2026-11-05 15:03:47.660 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:50.079 [エンジン/設定更新] patch={"market": {"spendRatio": 0.8}}
+2026-11-05 15:03:50.073 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:52.124 [エンジン/設定更新] patch={"master": false}
+2026-11-05 15:03:52.117 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:03:52.470 [コア/全体スイッチ] on=False
+2026-11-05 15:03:54.915 [エンジン/設定更新] patch={"market": {"spendRatio": 0.8}}
+2026-11-05 15:03:54.906 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:04.582 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:04.610 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:04.573 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:04.603 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:06.993 [エンジン/設定更新] patch={"market": {"spendRatio": 0.8}}
+2026-11-05 15:04:06.986 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:09.412 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:09.406 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:11.813 [エンジン/設定更新] patch={"market": {"spendRatio": 0.8}}
+2026-11-05 15:04:11.807 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:13.021 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:13.039 [エンジン/設定更新] patch={"market": {"enabled": false}}
+2026-11-05 15:04:13.013 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:13.032 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:16.247 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:16.241 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:21.068 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:21.083 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:21.057 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:21.076 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:23.469 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:23.461 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:25.862 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:25.856 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:28.271 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:28.265 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:30.683 [エンジン/設定更新] patch={"market": {"spendRatio": 0}}
+2026-11-05 15:04:30.675 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:33.099 [エンジン/設定更新] patch={"market": {"spendRatio": 0.8}}
+2026-11-05 15:04:33.120 [エンジン/設定更新] patch={"market": {"spendRatio": 0.8}}
+2026-11-05 15:04:33.090 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:33.112 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:42.373 [エンジン/設定更新] patch={"market": {"enabled": true}}
+2026-11-05 15:04:42.365 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:46.747 [エンジン/設定更新] patch={"master": true}
+2026-11-05 15:04:46.741 [コア/設定更新] keys=["master", "clicker", "golden", "wrinkler", "upgrade", "building", "lump", "garden", "market", "grimoire", "pantheon", "dragon", "santa", "season", "ascend", "prestige", "housekeep"]
+2026-11-05 15:04:46.796 [ゴールデン/回収] type=golden wrath=0 -> gain=63785725673.0302 gainStr=63.786 billion
+2026-11-05 15:04:47.136 [コア/全体スイッチ] on=True
+2026-11-05 15:04:47.788 [魔法/魔法詠唱] spell=焼き菓子に魔法をかける cost=20 magicLeft=25 backfire=0 failChance=0.15 -> cookieDelta=73932478082.2847 cookieDeltaStr=73.932 billion
+2026-11-05 15:04:47.805 [取引所/購入] good=バター symbol=BTR qty=5 price=18.17 mode=bull run -> cookiesSpent=425969304362.0459 cookiesSpentStr=425.969 billion stock=72 maxStock=129
+2026-11-05 15:04:53.047 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:04:59.743 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:00.299 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:00.373 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:01.041 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:02.866 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=15.417 mode=slow rise -> cookiesSpent=144575148527.3154 cookiesSpentStr=144.575 billion stock=19 maxStock=122
+2026-11-05 15:05:02.867 [取引所/sell] good=バター symbol=BTR qty=72 price=20.886 avgBuy=16.014 mode=bull run -> cookiesGained=6105993947198.511 cookiesGainedStr=6.106 trillion profitCpsSec=172.4 stock=0
+2026-11-05 15:05:07.083 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:07.705 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:08.630 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:16.172 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:17.098 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:18.831 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:22.814 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:31.332 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:36.645 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:37.323 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:39.514 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:40.047 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:42.680 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:49.087 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:49.244 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:56.754 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:05:57.319 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:03.063 [取引所/購入] good=バター symbol=BTR qty=48 price=23.184 mode=bull run -> cookiesSpent=5217731952361.562 cookiesSpentStr=5.218 trillion stock=48 maxStock=129
+2026-11-05 15:06:03.063 [取引所/購入] good=バター symbol=BTR qty=10 price=23.184 mode=bull run -> cookiesSpent=1087027490075.3253 cookiesSpentStr=1.087 trillion stock=58 maxStock=129
+2026-11-05 15:06:03.401 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:04.190 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:04.588 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:05.534 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:06.008 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:09.642 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:10.165 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:11.659 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:11.742 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:18.086 [取引所/購入] good=砂糖 symbol=SUG qty=4 price=16.013 mode=slow rise -> cookiesSpent=300319141580.1248 cookiesSpentStr=300.319 billion stock=23 maxStock=122
+2026-11-05 15:06:18.266 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:18.868 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:20.678 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:23.868 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:28.868 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:32.950 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:33.102 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=16.013 mode=slow rise -> cookiesSpent=150159570790.0624 cookiesSpentStr=150.16 billion stock=25 maxStock=122
+2026-11-05 15:06:34.649 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:38.087 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:38.710 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:43.271 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:44.838 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:48.137 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=16.013 mode=slow rise -> cookiesSpent=150159570790.0624 cookiesSpentStr=150.16 billion stock=27 maxStock=122
+2026-11-05 15:06:50.121 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:52.783 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:53.188 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:06:54.992 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:06:57.421 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:00.543 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:03.168 [取引所/購入] good=砂糖 symbol=SUG qty=5 price=16.581 mode=slow rise -> cookiesSpent=388716281594.5422 cookiesSpentStr=388.716 billion stock=32 maxStock=122
+2026-11-05 15:07:04.457 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:05.384 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:14.613 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:17.342 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:18.178 [取引所/購入] good=砂糖 symbol=SUG qty=9 price=16.581 mode=slow rise -> cookiesSpent=699689306870.176 cookiesSpentStr=699.689 billion stock=41 maxStock=122
+2026-11-05 15:07:19.941 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:22.414 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:26.555 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:30.011 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:31.496 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:33.187 [取引所/購入] good=砂糖 symbol=SUG qty=9 price=16.581 mode=slow rise -> cookiesSpent=699689306870.176 cookiesSpentStr=699.689 billion stock=50 maxStock=122
+2026-11-05 15:07:33.187 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=16.581 mode=slow rise -> cookiesSpent=155486512637.8169 cookiesSpentStr=155.487 billion stock=52 maxStock=122
+2026-11-05 15:07:38.718 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:38.853 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:39.393 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:41.456 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:43.116 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:47.057 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:47.307 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:48.232 [取引所/購入] good=砂糖 symbol=SUG qty=8 price=16.581 mode=slow rise -> cookiesSpent=621946050551.2676 cookiesSpentStr=621.946 billion stock=60 maxStock=122
+2026-11-05 15:07:48.233 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=16.581 mode=slow rise -> cookiesSpent=155486512637.8169 cookiesSpentStr=155.487 billion stock=62 maxStock=122
+2026-11-05 15:07:48.500 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:48.579 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:49.382 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:50.184 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:53.487 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:55.776 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:57.887 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:07:58.029 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:01.984 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:03.294 [取引所/購入] good=砂糖 symbol=SUG qty=7 price=17.188 mode=slow rise -> cookiesSpent=564129288113.6805 cookiesSpentStr=564.129 billion stock=69 maxStock=122
+2026-11-05 15:08:03.295 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=17.188 mode=slow rise -> cookiesSpent=161179796603.9087 cookiesSpentStr=161.18 billion stock=71 maxStock=122
+2026-11-05 15:08:03.430 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:07.285 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:11.255 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:12.932 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:18.317 [取引所/購入] good=砂糖 symbol=SUG qty=5 price=17.188 mode=slow rise -> cookiesSpent=402949491509.7718 cookiesSpentStr=402.949 billion stock=76 maxStock=122
+2026-11-05 15:08:20.223 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:21.882 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:29.597 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:33.042 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:33.357 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:33.358 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=17.188 mode=slow rise -> cookiesSpent=161179796603.9087 cookiesSpentStr=161.18 billion stock=78 maxStock=122
+2026-11-05 15:08:35.426 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:37.606 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:38.390 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:38.460 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:43.824 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:48.392 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=17.188 mode=slow rise -> cookiesSpent=161179796603.9087 cookiesSpentStr=161.18 billion stock=80 maxStock=122
+2026-11-05 15:08:52.488 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:53.853 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:08:55.435 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:03.428 [取引所/sell] good=バター symbol=BTR qty=58 price=33.216 avgBuy=23.184 mode=bull run -> cookiesGained=7822604583310.805 cookiesGainedStr=7.823 trillion profitCpsSec=373.8 stock=0
+2026-11-05 15:09:03.429 [取引所/ブローカー雇用了] brokers=6 max=20 -> cost=4872503634561.594 costStr=4.873 trillion overhead=0.147
+2026-11-05 15:09:03.429 [取引所/購入] good=砂糖 symbol=SUG qty=29 price=18.047 mode=slow fall -> cookiesSpent=2437433480348.4746 cookiesSpentStr=2.437 trillion stock=109 maxStock=122
+2026-11-05 15:09:04.122 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:04.533 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:05.023 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:06.789 [ゴールデン/回収] type=golden wrath=0 -> gain=106909147403.0978 gainStr=106.909 billion
+2026-11-05 15:09:07.574 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:12.265 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:12.684 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:16.892 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:18.437 [取引所/購入] good=砂糖 symbol=SUG qty=8 price=18.047 mode=slow fall -> cookiesSpent=672395442854.7516 cookiesSpentStr=672.395 billion stock=117 maxStock=122
+2026-11-05 15:09:18.437 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=18.047 mode=slow fall -> cookiesSpent=168098860713.6879 cookiesSpentStr=168.099 billion stock=119 maxStock=122
+2026-11-05 15:09:19.645 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:23.286 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:28.025 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:29.151 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:33.949 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:38.977 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:41.568 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:45.707 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:48.572 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=18.047 mode=slow fall -> cookiesSpent=168098860713.6879 cookiesSpentStr=168.099 billion stock=121 maxStock=122
+2026-11-05 15:09:48.928 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:53.251 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:09:57.204 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:01.888 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:03.343 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:03.594 [取引所/sell] good=クリーム symbol=CRM qty=1 price=19.224 avgBuy=14.105 mode=chaotic -> cookiesGained=78057544834.5879 cookiesGainedStr=78.058 billion profitCpsSec=3 stock=0
+2026-11-05 15:10:03.594 [取引所/購入] good=卵 symbol=EGG qty=1 price=27.483 mode=chaotic -> cookiesSpent=127996951008.8972 cookiesSpentStr=127.997 billion stock=17 maxStock=38
+2026-11-05 15:10:03.594 [取引所/購入] good=卵 symbol=EGG qty=1 price=27.483 mode=chaotic -> cookiesSpent=127996951008.8972 cookiesSpentStr=127.997 billion stock=18 maxStock=38
+2026-11-05 15:10:05.678 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:09.547 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:11.646 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:15.928 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:18.158 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:18.489 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:21.130 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:22.333 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:22.794 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:33.663 [取引所/購入] good=卵 symbol=EGG qty=1 price=27.483 mode=chaotic -> cookiesSpent=127996951008.8972 cookiesSpentStr=127.997 billion stock=19 maxStock=38
+2026-11-05 15:10:36.710 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:38.757 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:39.096 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:39.974 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:46.534 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:48.727 [取引所/購入] good=卵 symbol=EGG qty=1 price=27.483 mode=chaotic -> cookiesSpent=127996951008.8972 cookiesSpentStr=127.997 billion stock=20 maxStock=38
+2026-11-05 15:10:51.895 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:52.159 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:54.063 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:10:56.606 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:00.454 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:00.930 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:01.967 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:02.799 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:02.799 [農業/farm-seed-switched] from=bakerWheat to=gildmillet reason=unlock-recipe -> auto=True switches=1
+2026-11-05 15:11:03.163 [農業/farm-seed-switched] from=bakerWheat to=gildmillet reason=unlock-recipe -> auto=True switches=1
+2026-11-05 15:11:03.730 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:03.730 [取引所/購入] good=卵 symbol=EGG qty=1 price=30.378 mode=chaotic -> cookiesSpent=141479900152.8058 cookiesSpentStr=141.48 billion stock=21 maxStock=38
+2026-11-05 15:11:07.298 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:07.341 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:09.889 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:10.647 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:11.548 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:15.350 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:15.718 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:17.787 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:18.083 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:11:18.778 [取引所/購入] good=卵 symbol=EGG qty=1 price=30.378 mode=chaotic -> cookiesSpent=141479900152.8058 cookiesSpentStr=141.48 billion stock=22 maxStock=38
+2026-11-05 15:11:18.903 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:23.569 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:24.335 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:33.828 [取引所/購入] good=卵 symbol=EGG qty=4 price=30.378 mode=chaotic -> cookiesSpent=565919600611.2233 cookiesSpentStr=565.92 billion stock=26 maxStock=38
+2026-11-05 15:11:33.828 [取引所/購入] good=卵 symbol=EGG qty=1 price=30.378 mode=chaotic -> cookiesSpent=141479900152.8058 cookiesSpentStr=141.48 billion stock=27 maxStock=38
+2026-11-05 15:11:33.896 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:37.736 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:44.612 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:47.056 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:48.167 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:48.846 [取引所/購入] good=卵 symbol=EGG qty=4 price=30.378 mode=chaotic -> cookiesSpent=565919600611.2233 cookiesSpentStr=565.92 billion stock=31 maxStock=38
+2026-11-05 15:11:48.846 [取引所/購入] good=クリーム symbol=CRM qty=1 price=19.751 mode=chaotic -> cookiesSpent=91986550898.0844 cookiesSpentStr=91.987 billion stock=1 maxStock=1
+2026-11-05 15:11:48.846 [取引所/購入] good=卵 symbol=EGG qty=1 price=30.378 mode=chaotic -> cookiesSpent=141479900152.8058 cookiesSpentStr=141.48 billion stock=32 maxStock=38
+2026-11-05 15:11:52.005 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:52.402 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:55.095 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:55.558 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:57.631 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:11:57.698 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:02.395 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:03.871 [取引所/購入] good=卵 symbol=EGG qty=4 price=28.95 mode=chaotic -> cookiesSpent=539322562855.3823 cookiesSpentStr=539.323 billion stock=36 maxStock=38
+2026-11-05 15:12:03.871 [取引所/購入] good=卵 symbol=EGG qty=1 price=28.95 mode=chaotic -> cookiesSpent=134830640713.8456 cookiesSpentStr=134.831 billion stock=37 maxStock=38
+2026-11-05 15:12:04.384 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:05.070 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:07.141 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:09.830 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:12.921 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:17.456 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:18.875 [取引所/購入] good=卵 symbol=EGG qty=1 price=28.95 mode=chaotic -> cookiesSpent=134830640713.8456 cookiesSpentStr=134.831 billion stock=38 maxStock=38
+2026-11-05 15:12:21.730 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:25.055 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:25.213 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:25.909 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:27.683 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:33.765 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:35.470 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:38.144 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:40.980 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:47.201 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:12:54.385 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:00.234 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:01.447 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:02.778 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:05.511 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:09.754 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:15.570 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:17.328 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:17.529 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:18.921 [ゴールデン/回収] type=golden wrath=0 -> gain=279985185871.3711 gainStr=279.985 billion
+2026-11-05 15:13:19.276 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:23.147 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:27.642 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:28.304 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:28.420 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:37.078 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:40.911 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:44.992 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:55.490 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:55.971 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:57.146 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:57.792 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:58.388 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:13:59.309 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:03.300 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:04.066 [取引所/sell] good=卵 symbol=EGG qty=38 price=39.309 avgBuy=29.462 mode=chaotic -> cookiesGained=6065234289930.069 cookiesGainedStr=6.065 trillion profitCpsSec=209.6 stock=0
+2026-11-05 15:14:04.066 [取引所/ブローカー雇用了] brokers=7 max=20 -> cost=4872503634561.594 costStr=4.873 trillion overhead=0.1397
+2026-11-05 15:14:04.131 [農業/植栽] x=4 y=2 plant=gildmillet reason=unlock:clover -> cost=3511607922550.7207 costStr=3.512 trillion
+2026-11-05 15:14:04.480 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:04.763 [農業/farm-seed-switched] from=gildmillet to=bakerWheat reason=unlock-recipe -> auto=True switches=2
+2026-11-05 15:14:08.144 [農業/farm-seed-switched] from=gildmillet to=bakerWheat reason=unlock-recipe -> auto=True switches=2
+2026-11-05 15:14:11.764 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:12.212 [魔法/魔法詠唱] spell=焼き菓子に魔法をかける cost=20 magicLeft=25 backfire=0 failChance=0.15 -> cookieDelta=31199022553.8387 cookieDeltaStr=31.199 billion
+2026-11-05 15:14:16.009 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:16.337 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:25.285 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:26.836 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:31.312 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:36.558 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:40.548 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:45.186 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:48.060 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:49.441 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:14:53.461 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:02.219 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:15:04.209 [取引所/購入] good=卵 symbol=EGG qty=2 price=45.397 mode=chaotic -> cookiesSpent=420151107391.0545 cookiesSpentStr=420.151 billion stock=2 maxStock=38
+2026-11-05 15:15:07.678 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:10.136 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:18.156 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:19.233 [取引所/購入] good=卵 symbol=EGG qty=3 price=45.397 mode=chaotic -> cookiesSpent=630226661086.5818 cookiesSpentStr=630.227 billion stock=5 maxStock=38
+2026-11-05 15:15:19.876 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:20.416 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:21.394 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:34.284 [取引所/購入] good=卵 symbol=EGG qty=4 price=45.397 mode=chaotic -> cookiesSpent=840302214782.109 cookiesSpentStr=840.302 billion stock=9 maxStock=38
+2026-11-05 15:15:36.162 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:41.296 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:42.787 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:44.245 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:46.040 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:46.107 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:47.851 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:49.327 [取引所/購入] good=卵 symbol=EGG qty=3 price=45.397 mode=chaotic -> cookiesSpent=630226661086.5818 cookiesSpentStr=630.227 billion stock=12 maxStock=38
+2026-11-05 15:15:50.770 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:58.062 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:58.389 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:58.565 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:15:59.863 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:02.662 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:04.385 [取引所/購入] good=卵 symbol=EGG qty=4 price=43.118 mode=chaotic -> cookiesSpent=798124982475.2853 cookiesSpentStr=798.125 billion stock=16 maxStock=38
+2026-11-05 15:16:05.084 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:07.107 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:09.449 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:12.967 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:14.271 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:16.535 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:19.399 [取引所/購入] good=卵 symbol=EGG qty=4 price=43.118 mode=chaotic -> cookiesSpent=798124982475.2853 cookiesSpentStr=798.125 billion stock=20 maxStock=38
+2026-11-05 15:16:21.908 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:22.542 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:23.564 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:25.354 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:26.312 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:30.654 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:30.928 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:31.672 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:33.250 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:39.690 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:41.429 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:43.278 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:47.461 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:48.371 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:49.461 [取引所/購入] good=卵 symbol=EGG qty=2 price=43.118 mode=chaotic -> cookiesSpent=399062491237.6426 cookiesSpentStr=399.062 billion stock=22 maxStock=38
+2026-11-05 15:16:51.851 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:57.647 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:58.162 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:16:59.912 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:00.202 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:17:00.202 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:03.033 [セーブ/backup] tag=periodic file=save-20261105-151703-periodic.txt -> bytes=5279
+2026-11-05 15:17:03.036 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:09.054 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:09.522 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:11.055 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:11.122 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:15.235 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:17.757 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:18.290 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:19.535 [取引所/購入] good=卵 symbol=EGG qty=4 price=44.417 mode=chaotic -> cookiesSpent=822159971222.264 cookiesSpentStr=822.16 billion stock=26 maxStock=38
+2026-11-05 15:17:24.953 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:26.008 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:26.405 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:28.055 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:29.224 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:29.552 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:29.909 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:32.290 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:34.561 [取引所/購入] good=卵 symbol=EGG qty=4 price=44.417 mode=chaotic -> cookiesSpent=822159971222.264 cookiesSpentStr=822.16 billion stock=30 maxStock=38
+2026-11-05 15:17:36.699 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:40.819 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:45.255 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:49.586 [取引所/購入] good=卵 symbol=EGG qty=4 price=44.417 mode=chaotic -> cookiesSpent=822159971222.264 cookiesSpentStr=822.16 billion stock=34 maxStock=38
+2026-11-05 15:17:52.412 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:52.487 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:52.784 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:53.228 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:53.627 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:54.425 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:17:59.256 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:00.735 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:02.393 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:03.077 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:04.615 [取引所/購入] good=ナッツ symbol=NUT qty=4 price=35.685 mode=chaotic -> cookiesSpent=660540956459.1948 cookiesSpentStr=660.541 billion stock=45 maxStock=113
+2026-11-05 15:18:05.314 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:06.422 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:07.754 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:09.082 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:09.598 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:10.682 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:16.779 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:19.654 [取引所/購入] good=ナッツ symbol=NUT qty=4 price=35.685 mode=chaotic -> cookiesSpent=660540956459.1948 cookiesSpentStr=660.541 billion stock=49 maxStock=113
+2026-11-05 15:18:30.245 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:30.994 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:32.727 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:35.004 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:36.121 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:40.964 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:41.406 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:41.597 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:52.004 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:57.095 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:58.715 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:59.018 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:18:59.994 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:04.751 [取引所/購入] good=ナッツ symbol=NUT qty=3 price=28.885 mode=chaotic -> cookiesSpent=401005000929.7209 cookiesSpentStr=401.005 billion stock=52 maxStock=113
+2026-11-05 15:19:04.752 [取引所/sell] good=砂糖 symbol=SUG qty=121 price=21.634 avgBuy=17.072 mode=crash -> cookiesGained=10629101115117.006 cookiesGainedStr=10.629 trillion profitCpsSec=263.6 stock=0
+2026-11-05 15:19:05.403 [施設/購入] count=1 items=[{"building": "wizard tower", "count": 1, "spent": 9520002766702, "spentStr": "9.52 trillion"}] -> spent=9520002766702 spentStr=9.52 trillion cookiesLeft=1341397251205.2305 cookiesPs=3901786580.6119
+2026-11-05 15:19:09.330 [ゴールデン/回収] type=golden wrath=0 -> gain=205543467700.4834 gainStr=205.543 billion
+2026-11-05 15:19:13.268 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:20.784 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:21.928 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:22.478 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:24.526 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:25.440 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:28.962 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:29.629 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:30.584 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:31.183 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:32.453 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:35.349 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:39.951 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:41.060 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:41.788 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:42.044 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:56.501 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:19:59.036 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:03.012 [農業/植栽] x=2 y=2 plant=bakerWheat reason=unlock:clover -> cost=232584515981.681 costStr=232.585 billion
+2026-11-05 15:20:03.678 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:04.400 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:04.814 [取引所/購入] good=砂糖 symbol=SUG qty=16 price=17.818 mode=slow rise -> cookiesSpent=1319249795193.6604 cookiesSpentStr=1.319 trillion stock=16 maxStock=122
+2026-11-05 15:20:04.814 [取引所/購入] good=砂糖 symbol=SUG qty=4 price=17.818 mode=slow rise -> cookiesSpent=329812448798.4151 cookiesSpentStr=329.812 billion stock=20 maxStock=122
+2026-11-05 15:20:10.282 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:18.762 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:20.127 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:20.344 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:22.220 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:23.936 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:24.558 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:26.046 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:31.569 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:32.823 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:34.896 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=17.818 mode=slow rise -> cookiesSpent=164906224399.2076 cookiesSpentStr=164.906 billion stock=22 maxStock=122
+2026-11-05 15:20:36.147 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:36.962 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:38.976 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:46.172 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:46.827 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:47.361 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:49.240 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:49.939 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=17.818 mode=slow rise -> cookiesSpent=164906224399.2076 cookiesSpentStr=164.906 billion stock=24 maxStock=122
+2026-11-05 15:20:53.541 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:55.378 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:57.519 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:20:59.864 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:00.557 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:00.599 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:00.804 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:04.241 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:04.849 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:06.715 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:09.791 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:21:20.016 [取引所/購入] good=砂糖 symbol=SUG qty=7 price=17.771 mode=slow rise -> cookiesSpent=575636632655.3009 cookiesSpentStr=575.637 billion stock=31 maxStock=122
+2026-11-05 15:21:23.047 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:24.369 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:26.516 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:27.075 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:30.708 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:33.269 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:35.051 [取引所/購入] good=砂糖 symbol=SUG qty=8 price=17.771 mode=slow rise -> cookiesSpent=657870437320.3439 cookiesSpentStr=657.87 billion stock=39 maxStock=122
+2026-11-05 15:21:35.051 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=17.771 mode=slow rise -> cookiesSpent=164467609330.086 cookiesSpentStr=164.468 billion stock=41 maxStock=122
+2026-11-05 15:21:35.650 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:35.866 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:35.941 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:36.083 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:39.319 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:39.834 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:40.518 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:43.999 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:44.865 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:50.081 [取引所/購入] good=砂糖 symbol=SUG qty=7 price=17.771 mode=slow rise -> cookiesSpent=575636632655.3009 cookiesSpentStr=575.637 billion stock=48 maxStock=122
+2026-11-05 15:21:50.082 [取引所/購入] good=砂糖 symbol=SUG qty=2 price=17.771 mode=slow rise -> cookiesSpent=164467609330.086 cookiesSpentStr=164.468 billion stock=50 maxStock=122
+2026-11-05 15:21:50.593 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:52.135 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:21:52.826 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:00.676 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:05.103 [取引所/sell] good=卵 symbol=EGG qty=34 price=57.634 avgBuy=44.381 mode=slow fall -> cookiesGained=7956652243450.859 cookiesGainedStr=7.957 trillion profitCpsSec=239.9 stock=0
+2026-11-05 15:22:05.103 [取引所/sell] good=クリーム symbol=CRM qty=1 price=26.212 avgBuy=19.751 mode=slow fall -> cookiesGained=106430402249.5039 cookiesGainedStr=106.43 billion profitCpsSec=3.7 stock=0
+2026-11-05 15:22:05.103 [取引所/購入] good=砂糖 symbol=SUG qty=6 price=21.149 mode=stable -> cookiesSpent=587206611266.623 cookiesSpentStr=587.207 billion stock=56 maxStock=122
+2026-11-05 15:22:05.104 [取引所/ブローカー雇用了] brokers=8 max=20 -> cost=4872503634561.594 costStr=4.873 trillion overhead=0.1327
+2026-11-05 15:22:05.104 [取引所/購入] good=砂糖 symbol=SUG qty=28 price=21.149 mode=stable -> cookiesSpent=2723506200473.12 cookiesSpentStr=2.724 trillion stock=84 maxStock=122
+2026-11-05 15:22:09.272 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:10.374 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:15.437 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:16.544 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:17.352 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:17.536 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:17.871 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:19.343 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:20.164 [取引所/購入] good=砂糖 symbol=SUG qty=11 price=21.149 mode=stable -> cookiesSpent=1069948864471.5829 cookiesSpentStr=1.07 trillion stock=95 maxStock=122
+2026-11-05 15:22:20.164 [取引所/購入] good=砂糖 symbol=SUG qty=3 price=21.149 mode=stable -> cookiesSpent=291804235764.9772 cookiesSpentStr=291.804 billion stock=98 maxStock=122
+2026-11-05 15:22:23.043 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:28.411 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:30.482 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:35.195 [取引所/購入] good=砂糖 symbol=SUG qty=4 price=21.149 mode=stable -> cookiesSpent=389072314353.3029 cookiesSpentStr=389.072 billion stock=102 maxStock=122
+2026-11-05 15:22:36.252 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:39.680 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:41.662 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:46.671 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:55.361 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:22:56.377 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:00.261 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:00.812 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:02.961 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:03.914 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:05.282 [取引所/購入] good=クリーム symbol=CRM qty=1 price=28.34 mode=slow fall -> cookiesSpent=130338790891.8972 cookiesSpentStr=130.339 billion stock=1 maxStock=1
+2026-11-05 15:23:06.117 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:11.677 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:15.046 [ゴールデン/回収] type=golden wrath=0 -> gain=38002098365.9642 gainStr=38.002 billion
+2026-11-05 15:23:16.457 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:23.186 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:32.102 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:35.327 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:35.328 [取引所/購入] good=砂糖 symbol=SUG qty=3 price=22.853 mode=stable -> cookiesSpent=315311089974.7278 cookiesSpentStr=315.311 billion stock=105 maxStock=122
+2026-11-05 15:23:35.937 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:36.977 [魔法/魔法詠唱] spell=焼き菓子に魔法をかける cost=20 magicLeft=25 backfire=0 failChance=0.15 -> cookieDelta=19804155401.9955 cookieDeltaStr=19.804 billion
+2026-11-05 15:23:43.255 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:44.939 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:45.097 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:23:47.528 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:00.453 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:00.644 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:05.427 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=29.456 mode=slow rise -> cookiesSpent=270943234997.0203 cookiesSpentStr=270.943 billion stock=54 maxStock=113
+2026-11-05 15:24:05.427 [取引所/sell] good=砂糖 symbol=SUG qty=105 price=24.534 avgBuy=19.6 mode=stable -> cookiesGained=10459794458780.73 cookiesGainedStr=10.46 trillion profitCpsSec=245 stock=0
+2026-11-05 15:24:06.434 [施設/購入] count=1 items=[{"building": "grandma", "count": 1, "spent": 9011395536394, "spentStr": "9.011 trillion"}] -> spent=9011395536394 spentStr=9.011 trillion cookiesLeft=1538755286134.377 cookiesPs=3879315906.1445
+2026-11-05 15:24:08.132 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:08.384 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:09.603 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:09.737 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:13.658 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:19.722 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:20.410 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:20.484 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:21.231 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:26.113 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:26.571 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:27.713 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:28.230 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:30.468 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:32.475 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:33.773 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:34.406 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:40.003 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:40.754 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:46.016 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:50.597 [取引所/購入] good=砂糖 symbol=SUG qty=12 price=26.022 mode=stable -> cookiesSpent=1436147650772.0073 cookiesSpentStr=1.436 trillion stock=12 maxStock=122
+2026-11-05 15:24:50.597 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=28.691 mode=slow rise -> cookiesSpent=263910645585.2657 cookiesSpentStr=263.911 billion stock=56 maxStock=113
+2026-11-05 15:24:51.408 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:54.045 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:56.114 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:24:59.157 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:09.637 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:25:16.056 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:16.821 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:20.657 [取引所/購入] good=砂糖 symbol=SUG qty=5 price=26.022 mode=stable -> cookiesSpent=598394854488.3363 cookiesSpentStr=598.395 billion stock=17 maxStock=122
+2026-11-05 15:25:22.641 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:27.144 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:27.253 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:27.512 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:30.608 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:31.939 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:35.729 [取引所/購入] good=砂糖 symbol=SUG qty=6 price=26.022 mode=stable -> cookiesSpent=718073825386.0037 cookiesSpentStr=718.074 billion stock=23 maxStock=122
+2026-11-05 15:25:38.194 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:39.236 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:39.987 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:42.031 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:43.332 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:50.754 [取引所/購入] good=砂糖 symbol=SUG qty=6 price=27.255 mode=stable -> cookiesSpent=752105968314.159 cookiesSpentStr=752.106 billion stock=29 maxStock=122
+2026-11-05 15:25:52.535 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:52.609 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:52.979 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:25:55.692 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:00.381 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:00.708 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:04.282 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:05.088 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:05.721 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:05.796 [取引所/購入] good=砂糖 symbol=SUG qty=6 price=27.255 mode=stable -> cookiesSpent=752105968314.159 cookiesSpentStr=752.106 billion stock=35 maxStock=122
+2026-11-05 15:26:05.911 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:10.372 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:14.197 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:15.422 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:16.652 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:20.309 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:20.864 [取引所/購入] good=砂糖 symbol=SUG qty=6 price=27.255 mode=stable -> cookiesSpent=752105968314.159 cookiesSpentStr=752.106 billion stock=41 maxStock=122
+2026-11-05 15:26:26.345 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:27.176 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:31.989 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:34.307 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:35.897 [取引所/購入] good=砂糖 symbol=SUG qty=3 price=27.255 mode=stable -> cookiesSpent=376052984157.0795 cookiesSpentStr=376.053 billion stock=44 maxStock=122
+2026-11-05 15:26:35.941 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:36.624 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:38.253 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:39.696 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:40.381 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:41.057 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:43.546 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:43.939 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:47.601 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:47.883 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:50.932 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=27.871 mode=slow rise -> cookiesSpent=256366227979.6948 cookiesSpentStr=256.366 billion stock=58 maxStock=113
+2026-11-05 15:26:54.282 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:26:55.781 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:02.039 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:07.645 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:07.713 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:27:09.429 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:11.079 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:11.692 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:21.008 [取引所/購入] good=砂糖 symbol=SUG qty=5 price=28.57 mode=stable -> cookiesSpent=656996874767.2576 cookiesSpentStr=656.997 billion stock=49 maxStock=122
+2026-11-05 15:27:27.903 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:36.043 [取引所/購入] good=砂糖 symbol=SUG qty=5 price=28.57 mode=stable -> cookiesSpent=656996874767.2576 cookiesSpentStr=656.997 billion stock=54 maxStock=122
+2026-11-05 15:27:36.656 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:40.906 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:42.694 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:51.113 [取引所/sell] good=クリーム symbol=CRM qty=1 price=35.965 avgBuy=28.34 mode=slow fall -> cookiesGained=146032769691.4192 cookiesGainedStr=146.033 billion profitCpsSec=3.9 stock=0
+2026-11-05 15:27:51.113 [取引所/購入] good=砂糖 symbol=SUG qty=6 price=29.732 mode=stable -> cookiesSpent=820450259857.1464 cookiesSpentStr=820.45 billion stock=60 maxStock=122
+2026-11-05 15:27:51.113 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=24.56 mode=slow rise -> cookiesSpent=225912063094.7092 cookiesSpentStr=225.912 billion stock=60 maxStock=113
+2026-11-05 15:27:53.310 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:54.698 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:55.341 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:56.208 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:57.922 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:58.629 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:27:58.936 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:06.165 [取引所/購入] good=砂糖 symbol=SUG qty=5 price=29.732 mode=stable -> cookiesSpent=683708549880.9553 cookiesSpentStr=683.709 billion stock=65 maxStock=122
+2026-11-05 15:28:06.573 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:07.814 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:08.821 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:10.138 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:10.990 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:12.503 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:14.239 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:15.198 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:18.401 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:19.435 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:21.210 [取引所/購入] good=砂糖 symbol=SUG qty=5 price=29.732 mode=stable -> cookiesSpent=683708549880.9553 cookiesSpentStr=683.709 billion stock=70 maxStock=122
+2026-11-05 15:28:22.195 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:22.884 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:23.140 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:24.530 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:28.002 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:31.304 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:34.425 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:36.253 [取引所/購入] good=砂糖 symbol=SUG qty=3 price=29.732 mode=stable -> cookiesSpent=410225129928.5732 cookiesSpentStr=410.225 billion stock=73 maxStock=122
+2026-11-05 15:28:36.883 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:36.958 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:37.607 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:38.737 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:39.713 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:49.476 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:51.277 [取引所/購入] good=クリーム symbol=CRM qty=1 price=37.6 mode=slow fall -> cookiesSpent=172929323691.1307 cookiesSpentStr=172.929 billion stock=1 maxStock=1
+2026-11-05 15:28:55.547 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:55.840 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:58.292 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:28:59.006 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:29:06.303 [取引所/購入] good=ナッツ symbol=NUT qty=3 price=24.031 mode=slow rise -> cookiesSpent=331563993392.0546 cookiesSpentStr=331.564 billion stock=63 maxStock=113
+2026-11-05 15:29:09.915 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:15.060 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:20.261 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:21.322 [取引所/購入] good=砂糖 symbol=SUG qty=5 price=31.201 mode=stable -> cookiesSpent=717495731165.3872 cookiesSpentStr=717.496 billion stock=78 maxStock=122
+2026-11-05 15:29:22.833 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:26.544 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:27.821 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:36.392 [取引所/購入] good=砂糖 symbol=SUG qty=5 price=31.201 mode=stable -> cookiesSpent=717495731165.3872 cookiesSpentStr=717.496 billion stock=83 maxStock=122
+2026-11-05 15:29:37.118 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:37.518 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:38.589 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:40.858 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:41.330 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:41.437 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:43.055 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:47.855 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:49.118 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:51.393 [取引所/購入] good=ナッツ symbol=NUT qty=7 price=21.631 mode=slow rise -> cookiesSpent=696384847093.7913 cookiesSpentStr=696.385 billion stock=70 maxStock=113
+2026-11-05 15:29:51.393 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=21.631 mode=slow rise -> cookiesSpent=198967099169.6547 cookiesSpentStr=198.967 billion stock=72 maxStock=113
+2026-11-05 15:29:51.471 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:56.164 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:56.431 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:29:58.155 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:05.387 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:06.396 [取引所/購入] good=ナッツ symbol=NUT qty=6 price=21.631 mode=slow rise -> cookiesSpent=596901297508.964 cookiesSpentStr=596.901 billion stock=78 maxStock=113
+2026-11-05 15:30:09.702 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:11.185 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:11.717 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:13.446 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:16.299 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:17.221 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:19.869 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:21.259 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:21.300 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:21.443 [取引所/購入] good=ナッツ symbol=NUT qty=6 price=21.631 mode=slow rise -> cookiesSpent=596901297508.964 cookiesSpentStr=596.901 billion stock=84 maxStock=113
+2026-11-05 15:30:22.001 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:23.065 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:23.143 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:25.050 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:32.492 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:34.203 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:36.471 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=21.631 mode=slow rise -> cookiesSpent=198967099169.6547 cookiesSpentStr=198.967 billion stock=86 maxStock=113
+2026-11-05 15:30:38.320 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:39.775 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:41.202 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:44.995 [ゴールデン/回収] type=golden wrath=0 -> gain=21441212358.9513 gainStr=21.441 billion
+2026-11-05 15:30:47.082 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:47.649 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:48.007 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:49.449 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:50.640 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:52.732 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:54.102 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:55.522 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:30:58.170 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:06.542 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=21.181 mode=slow rise -> cookiesSpent=194830593693.8916 cookiesSpentStr=194.831 billion stock=88 maxStock=113
+2026-11-05 15:31:09.096 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:09.404 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:10.722 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:13.633 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:15.376 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:22.851 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:22.918 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:28.078 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:31.875 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:35.349 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:36.621 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=21.181 mode=slow rise -> cookiesSpent=194830593693.8916 cookiesSpentStr=194.831 billion stock=90 maxStock=113
+2026-11-05 15:31:47.035 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:51.669 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=20.748 mode=slow rise -> cookiesSpent=190848122275.8465 cookiesSpentStr=190.848 billion stock=92 maxStock=113
+2026-11-05 15:31:51.669 [取引所/sell] good=砂糖 symbol=SUG qty=83 price=35.474 avgBuy=28.114 mode=stable -> cookiesGained=11955285101886.203 cookiesGainedStr=11.955 trillion profitCpsSec=301.3 stock=0
+2026-11-05 15:31:51.744 [施設/購入] count=1 items=[{"building": "shipment", "count": 1, "spent": 11888640221071, "spentStr": "11.889 trillion"}] -> spent=11888640221071 spentStr=11.889 trillion cookiesLeft=126167175529.0449 cookiesPs=3893406984.6901
+2026-11-05 15:31:56.299 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:31:59.863 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:01.515 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:03.380 [セーブ/backup] tag=periodic file=save-20261105-153203-periodic.txt -> bytes=5259
+2026-11-05 15:32:03.421 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:04.261 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:11.286 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:14.111 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:15.352 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:19.439 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:21.765 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=20.748 mode=slow rise -> cookiesSpent=190848122275.8465 cookiesSpentStr=190.848 billion stock=94 maxStock=113
+2026-11-05 15:32:23.080 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:23.753 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:26.188 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:30.275 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:33.250 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:35.139 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:36.824 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:36.824 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=20.748 mode=slow rise -> cookiesSpent=190848122275.8465 cookiesSpentStr=190.848 billion stock=96 maxStock=113
+2026-11-05 15:32:39.178 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:47.695 [ゴールデン/回収] type=golden wrath=0 -> gain=21674590565.1094 gainStr=21.675 billion
+2026-11-05 15:32:53.422 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:32:57.975 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:00.205 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:03.433 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:04.414 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:05.198 [魔法/魔法詠唱] spell=焼き菓子に魔法をかける cost=20 magicLeft=25 backfire=0 failChance=0.15 -> cookieDelta=43587778997.3224 cookieDeltaStr=43.588 billion
+2026-11-05 15:33:05.608 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:06.902 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=21.179 mode=slow rise -> cookiesSpent=194810609833.1269 cookiesSpentStr=194.811 billion stock=98 maxStock=113
+2026-11-05 15:33:17.110 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:18.901 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:19.344 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:21.047 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:21.612 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:21.968 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=21.179 mode=slow rise -> cookiesSpent=194810609833.1269 cookiesSpentStr=194.811 billion stock=100 maxStock=113
+2026-11-05 15:33:36.291 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:37.490 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:42.721 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:43.453 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:43.604 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:43.862 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:43.933 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:44.378 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:46.183 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:47.364 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:51.541 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:51.991 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=20.923 mode=slow rise -> cookiesSpent=192459930994.4483 cookiesSpentStr=192.46 billion stock=102 maxStock=113
+2026-11-05 15:33:55.121 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:33:58.067 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:02.421 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:02.635 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:08.281 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:08.984 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:09.606 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:20.154 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:22.086 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=20.923 mode=slow rise -> cookiesSpent=192459930994.4483 cookiesSpentStr=192.46 billion stock=104 maxStock=113
+2026-11-05 15:34:27.861 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:31.704 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:33.542 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:36.694 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:37.348 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:37.968 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:41.183 [ゴールデン/回収] type=golden wrath=0 -> gain=36564951174.4283 gainStr=36.565 billion
+2026-11-05 15:34:45.681 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:46.381 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:46.732 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:52.152 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=22.832 mode=slow rise -> cookiesSpent=210015906880.1612 cookiesSpentStr=210.016 billion stock=106 maxStock=113
+2026-11-05 15:34:52.757 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:34:55.593 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:05.737 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:09.923 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:13.341 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:13.839 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:16.049 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:17.799 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:17.840 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:20.102 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:22.273 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=22.832 mode=slow rise -> cookiesSpent=210015906880.1612 cookiesSpentStr=210.016 billion stock=108 maxStock=113
+2026-11-05 15:35:23.966 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:33.365 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:34.403 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:39.441 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:39.680 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:51.456 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:52.335 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=22.57 mode=slow rise -> cookiesSpent=207602218390.7406 cookiesSpentStr=207.602 billion stock=110 maxStock=113
+2026-11-05 15:35:54.241 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:55.037 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:56.376 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:56.567 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:58.266 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:35:58.335 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:01.085 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:01.457 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:04.169 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:05.238 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:07.374 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=22.57 mode=slow rise -> cookiesSpent=207602218390.7406 cookiesSpentStr=207.602 billion stock=112 maxStock=113
+2026-11-05 15:36:08.089 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:09.938 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:10.899 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:13.883 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:24.563 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:26.407 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:29.183 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:32.110 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:33.073 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:34.599 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:37.251 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:40.680 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:44.410 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:36:45.091 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:46.689 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:46.872 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:46.979 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:47.439 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:48.154 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:49.369 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:36:52.488 [取引所/sell] good=クリーム symbol=CRM qty=1 price=48.348 avgBuy=37.6 mode=slow fall -> cookiesGained=196311380032.5635 cookiesGainedStr=196.311 billion profitCpsSec=5.8 stock=0
+2026-11-05 15:36:57.547 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:00.294 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:01.514 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:02.063 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:06.599 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:07.388 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:08.097 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:11.952 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:15.278 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:19.708 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:20.388 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:21.383 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:21.423 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:22.863 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:25.973 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:27.580 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:28.774 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:31.106 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:36.013 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:50.325 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:52.599 [取引所/購入] good=クリーム symbol=CRM qty=1 price=49.49 mode=slow fall -> cookiesSpent=227613918011.7983 cookiesSpentStr=227.614 billion stock=1 maxStock=1
+2026-11-05 15:37:54.667 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:37:55.646 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:00.908 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:10.939 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:12.423 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:13.314 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:17.136 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:17.592 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:17.800 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:19.761 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:20.184 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:20.332 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:30.201 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:34.153 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:34.328 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:34.470 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:42.974 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:43.106 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:44.261 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:38:46.517 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:48.268 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:57.472 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:38:57.754 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:00.331 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:07.495 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:08.695 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:12.445 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:14.555 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:21.344 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:23.027 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:25.387 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:27.679 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:28.899 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:32.519 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:37.759 [取引所/ブローカー雇用了] brokers=9 max=20 -> cost=4872503634561.594 costStr=4.873 trillion overhead=0.126
+2026-11-05 15:39:37.980 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:39.662 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:40.160 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:41.093 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:41.703 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:45.710 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:46.968 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:51.049 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:51.862 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:58.251 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:39:59.829 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:03.360 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:06.449 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:10.945 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:11.520 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:12.900 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:14.667 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:16.312 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:17.054 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:22.387 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:22.934 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:29.240 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:31.422 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:34.746 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:37.166 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:37.207 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:38.415 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:39.169 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:43.425 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:45.574 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:46.537 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:48.075 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:48.746 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:40:50.421 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:40:58.888 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:00.799 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:07.219 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:07.453 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:16.937 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:19.615 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:26.383 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:28.774 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:32.703 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:36.574 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:38.065 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:39.183 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:40.869 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:42.787 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:45.004 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:46.917 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:48.846 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:51.990 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:53.067 [取引所/購入] good=シナモン symbol=CNM qty=15 price=70.309 mode=slow fall -> cookiesSpent=4822020215239.294 cookiesSpentStr=4.822 trillion stock=15 maxStock=19
+2026-11-05 15:41:53.068 [取引所/購入] good=シナモン symbol=CNM qty=3 price=70.309 mode=slow fall -> cookiesSpent=964404043047.8588 cookiesSpentStr=964.404 billion stock=18 maxStock=19
+2026-11-05 15:41:54.938 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:41:58.968 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:05.488 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:07.344 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:10.831 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:11.708 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:12.579 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:17.778 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:18.794 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:23.526 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:23.926 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:28.472 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:30.476 [魔法/魔法詠唱] spell=焼き菓子に魔法をかける cost=20 magicLeft=25 backfire=0 failChance=0.15 -> cookieDelta=185600777111.8196 cookieDeltaStr=185.601 billion
+2026-11-05 15:42:31.149 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:32.090 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:33.751 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:34.187 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:37.918 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:38.460 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:40.502 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:40.650 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:46.781 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:42:51.035 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:42:59.702 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:01.496 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:01.644 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:03.057 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:03.221 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:06.919 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:08.646 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:10.019 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:12.204 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:13.485 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:16.753 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:17.259 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:26.806 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:33.436 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:35.728 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:36.425 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:36.806 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:37.139 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:47.180 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:52.697 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:53.863 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:54.129 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:43:58.988 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:02.890 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:03.785 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:04.438 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:04.737 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:06.827 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:07.630 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:12.247 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:13.846 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:14.237 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:23.878 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:29.213 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:30.878 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:33.139 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:34.037 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:35.617 [ゴールデン/回収] type=golden wrath=0 -> gain=657960378291.4194 gainStr=657.96 billion
+2026-11-05 15:44:35.854 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:36.361 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:39.021 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:48.415 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:49.770 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:50.245 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:53.463 [取引所/sell] good=ナッツ symbol=NUT qty=112 price=29.384 avgBuy=24.255 mode=slow rise -> cookiesGained=13362714405530.742 cookiesGainedStr=13.363 trillion profitCpsSec=232 stock=0
+2026-11-05 15:44:53.464 [取引所/sell] good=クリーム symbol=CRM qty=1 price=62.673 avgBuy=49.49 mode=slow fall -> cookiesGained=254477923464.0156 cookiesGainedStr=254.478 billion profitCpsSec=6.9 stock=0
+2026-11-05 15:44:53.464 [取引所/ブローカー雇用了] brokers=10 max=20 -> cost=4872503634561.594 costStr=4.873 trillion overhead=0.1197
+2026-11-05 15:44:54.146 [施設/購入] count=1 items=[{"building": "portal", "count": 1, "spent": 13235547630818, "spentStr": "13.236 trillion"}] -> spent=13235547630818 spentStr=13.236 trillion cookiesLeft=679197347981.5898 cookiesPs=3918176469.6922
+2026-11-05 15:44:58.016 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:44:58.349 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:17.988 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:19.787 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:26.204 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:29.967 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:30.488 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:37.221 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:38.077 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:52.785 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:53.160 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:45:53.528 [取引所/購入] good=ナッツ symbol=NUT qty=6 price=30.545 mode=slow rise -> cookiesSpent=833253473215.8344 cookiesSpentStr=833.253 billion stock=6 maxStock=113
+2026-11-05 15:45:57.523 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:00.321 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:00.810 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:01.812 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:08.534 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=30.545 mode=slow rise -> cookiesSpent=277751157738.6115 cookiesSpentStr=277.751 billion stock=8 maxStock=113
+2026-11-05 15:46:08.716 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:09.578 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:11.482 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:15.249 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:17.052 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:17.983 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:30.447 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:31.447 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:41.681 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:42.294 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:46:42.743 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:43.775 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:47.202 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:52.024 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:53.634 [取引所/購入] good=ナッツ symbol=NUT qty=5 price=31.526 mode=slow rise -> cookiesSpent=716690683550.7085 cookiesSpentStr=716.691 billion stock=13 maxStock=113
+2026-11-05 15:46:58.023 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:58.290 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:59.578 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:46:59.955 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:03.800 [セーブ/backup] tag=periodic file=save-20261105-154703-periodic.txt -> bytes=5289
+2026-11-05 15:47:03.840 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:03.917 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:04.934 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:08.675 [取引所/購入] good=ナッツ symbol=NUT qty=5 price=31.526 mode=slow rise -> cookiesSpent=716690683550.7085 cookiesSpentStr=716.691 billion stock=18 maxStock=113
+2026-11-05 15:47:11.833 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:12.842 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:13.338 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:17.813 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:18.302 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:22.847 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:23.713 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=31.526 mode=slow rise -> cookiesSpent=286676273420.2834 cookiesSpentStr=286.676 billion stock=20 maxStock=113
+2026-11-05 15:47:28.210 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:29.176 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:29.326 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:31.528 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:32.105 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:35.151 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:35.434 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:37.677 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:38.233 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:39.247 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:40.800 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:41.417 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:42.806 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:43.057 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:46.197 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:46.343 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:48.749 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:49.301 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:50.861 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:53.033 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:53.733 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=32.534 mode=slow rise -> cookiesSpent=295845341832.8665 cookiesSpentStr=295.845 billion stock=22 maxStock=113
+2026-11-05 15:47:54.758 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:47:59.134 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:04.338 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:05.283 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:07.723 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:08.324 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:16.724 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:20.323 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:21.743 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:22.744 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:24.618 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:25.877 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:29.716 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:31.023 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:39.060 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:48:42.378 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:45.335 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:47.575 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:48.123 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:50.347 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:53.477 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:53.919 [取引所/購入] good=ナッツ symbol=NUT qty=6 price=33.626 mode=slow rise -> cookiesSpent=917305962202.7969 cookiesSpentStr=917.306 billion stock=28 maxStock=113
+2026-11-05 15:48:57.823 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:48:58.759 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:01.712 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:02.632 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:02.916 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:04.009 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:04.789 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:08.950 [取引所/購入] good=ナッツ symbol=NUT qty=5 price=33.626 mode=slow rise -> cookiesSpent=764421635168.9973 cookiesSpentStr=764.422 billion stock=33 maxStock=113
+2026-11-05 15:49:12.606 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:19.182 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:19.437 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:21.774 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:24.011 [取引所/購入] good=ナッツ symbol=NUT qty=5 price=33.626 mode=slow rise -> cookiesSpent=764421635168.9973 cookiesSpentStr=764.422 billion stock=38 maxStock=113
+2026-11-05 15:49:25.858 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:27.870 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:29.106 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:29.424 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:30.690 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:33.778 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:34.622 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:39.046 [取引所/購入] good=ナッツ symbol=NUT qty=5 price=33.452 mode=slow rise -> cookiesSpent=760468560542.7786 cookiesSpentStr=760.469 billion stock=43 maxStock=113
+2026-11-05 15:49:44.028 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:44.711 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:49.794 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:50.993 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:54.105 [取引所/購入] good=ナッツ symbol=NUT qty=5 price=33.452 mode=slow rise -> cookiesSpent=760468560542.7786 cookiesSpentStr=760.469 billion stock=48 maxStock=113
+2026-11-05 15:49:54.175 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:49:56.601 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:07.294 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:08.401 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:08.543 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:08.585 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:09.148 [取引所/購入] good=ナッツ symbol=NUT qty=2 price=33.452 mode=slow rise -> cookiesSpent=304187424217.1115 cookiesSpentStr=304.187 billion stock=50 maxStock=113
+2026-11-05 15:50:10.439 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:10.981 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:16.261 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:16.871 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:17.424 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:22.038 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:26.655 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:34.578 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:38.289 [ゴールデン/回収] type=golden wrath=0 -> gain=70022673412.0886 gainStr=70.023 billion
+2026-11-05 15:50:42.394 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:44.361 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:44.406 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:46.397 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:47.022 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:47.061 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:48.423 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:50:54.234 [取引所/購入] good=ナッツ symbol=NUT qty=3 price=36.06 mode=slow rise -> cookiesSpent=491852182082.243 cookiesSpentStr=491.852 billion stock=53 maxStock=113
+2026-11-05 15:51:05.907 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:08.936 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:13.036 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:18.813 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:21.539 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:21.607 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:22.330 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:24.713 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:30.316 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:30.607 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:33.166 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:35.728 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:37.426 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:42.114 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:42.636 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:52.217 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:53.294 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:58.088 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:51:58.386 [魔法/魔法詠唱] spell=焼き菓子に魔法をかける cost=20 magicLeft=25 backfire=0 failChance=0.15 -> cookieDelta=94302060099.7649 cookieDeltaStr=94.302 billion
+2026-11-05 15:52:02.962 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:03.889 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:04.882 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:09.324 [取引所/購入] good=ナッツ symbol=NUT qty=3 price=37.548 mode=slow rise -> cookiesSpent=512150857307.5317 cookiesSpentStr=512.151 billion stock=56 maxStock=113
+2026-11-05 15:52:11.065 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:11.133 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:12.985 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:14.844 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:23.845 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:24.345 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:25.514 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:29.109 [ゴールデン/回収] type=golden wrath=0 -> gain=65420618615.9783 gainStr=65.421 billion
+2026-11-05 15:52:30.773 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:34.419 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:35.586 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:36.376 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:41.604 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:43.593 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:45.501 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:47.167 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:48.851 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:52.224 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:54.459 [取引所/購入] good=ナッツ symbol=NUT qty=3 price=38.952 mode=slow rise -> cookiesSpent=531298971996.3073 cookiesSpentStr=531.299 billion stock=59 maxStock=113
+2026-11-05 15:52:58.943 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:52:59.907 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:00.524 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:05.334 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:06.885 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:08.380 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:12.023 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:17.179 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:19.722 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:21.396 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:22.370 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:23.445 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:25.276 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:29.490 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:33.502 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:34.540 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:34.618 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:38.653 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:46.629 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:53:51.710 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:00.034 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:05.124 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:09.038 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:09.809 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:11.107 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:17.453 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:22.377 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:26.538 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:34.197 [ゴールデン/回収] type=golden wrath=0 -> gain=0 gainStr=0
+2026-11-05 15:54:38.003 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:39.045 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:39.538 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:39.650 [取引所/sell] good=ナッツ symbol=NUT qty=59 price=41.87 avgBuy=33.303 mode=slow rise -> cookiesGained=10030687431469.467 cookiesGainedStr=10.031 trillion profitCpsSec=270.2 stock=0
+2026-11-05 15:54:39.789 [施設/購入] count=1 items=[{"building": "wizard tower", "count": 1, "spent": 10948003181707, "spentStr": "10.948 trillion"}] -> spent=10948003181707 spentStr=10.948 trillion cookiesLeft=251172572872.2617 cookiesPs=27969854310.3332
+2026-11-05 15:54:41.752 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:42.162 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:44.068 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:45.398 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:45.953 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:51.081 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:52.596 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:54:54.513 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:01.004 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:01.078 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:08.724 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:09.867 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:19.908 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:23.434 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:25.370 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:38.881 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:39.750 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:42.320 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:55:56.465 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:03.531 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:06.420 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:07.782 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:11.740 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:13.893 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:17.229 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:18.178 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:20.328 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:24.951 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:35.345 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:35.913 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:39.286 [ゴールデン/回収] type=golden wrath=0 -> gain=643418115586.6919 gainStr=643.418 billion
+2026-11-05 15:56:40.393 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:41.102 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:45.328 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:52.391 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:53.188 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:54.117 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:54.337 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:55.837 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:57.704 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:59.263 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:59.587 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:56:59.944 [クリック/自動クリック] cps=14.5 count=1
+2026-11-05 15:57:00.011 [クリック/自動クリック] cps=14.5 count=1
