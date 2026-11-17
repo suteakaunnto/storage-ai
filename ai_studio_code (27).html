@@ -1,0 +1,1487 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ホライゾン風レーシングゲーム 設計書</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #0b0f17;
+      color: #e2e8f0;
+      font-family: 'Hiragino Sans', 'Noto Sans JP', system-ui, -apple-system, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    button { font: inherit; color: inherit; cursor: pointer; background: none; border: 0; }
+    code, pre, .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    h1, h2, h3, h4, p, ul, ol { margin: 0; }
+    ul, ol { padding: 0; list-style: none; }
+    table { border-collapse: collapse; width: 100%; }
+
+    /* Header */
+    .header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      background: rgba(11, 15, 23, 0.85);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .header-inner {
+      max-width: 72rem;
+      margin: 0 auto;
+      padding: 0 1rem;
+      height: 3.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-weight: 700;
+      font-size: 0.875rem;
+    }
+    @media (min-width: 768px) { .brand { font-size: 1rem; } }
+    .brand-bar {
+      display: inline-block;
+      width: 0.5rem;
+      height: 1.25rem;
+      background: #f97316;
+      transform: skewX(-12deg);
+    }
+    .btn-primary {
+      font-size: 0.75rem;
+      padding: 0.375rem 0.75rem;
+      border-radius: 0.375rem;
+      background: #f97316;
+      color: #000;
+      font-weight: 600;
+      transition: background 0.15s;
+    }
+    @media (min-width: 768px) { .btn-primary { font-size: 0.875rem; } }
+    .btn-primary:hover { background: #fb923c; }
+    .btn-lg {
+      padding: 0.75rem 1.5rem;
+      border-radius: 0.5rem;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+
+    /* Mobile Nav */
+    .mobile-nav {
+      display: flex;
+      gap: 0.5rem;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 0 1rem 0.5rem;
+    }
+    .mobile-pill {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.625rem;
+      border-radius: 9999px;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      color: #cbd5e1;
+    }
+    .mobile-pill.active {
+      background: #f97316;
+      color: #000;
+      border-color: #f97316;
+    }
+
+    /* Layout */
+    .container {
+      max-width: 72rem;
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      gap: 2.5rem;
+    }
+    .sidebar { display: none; width: 11rem; flex-shrink: 0; }
+    .sidebar-sticky {
+      position: sticky;
+      top: 5rem;
+      padding: 2.5rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+    .side-link {
+      display: block;
+      font-size: 0.875rem;
+      padding: 0.375rem 0.75rem;
+      border-radius: 0.375rem;
+      border-left: 2px solid transparent;
+      color: #94a3b8;
+      transition: color 0.15s, background 0.15s;
+    }
+    .side-link:hover { color: #fff; }
+    .side-link.active {
+      border-left-color: #f97316;
+      color: #fff;
+      background: rgba(255, 255, 255, 0.05);
+    }
+    @media (min-width: 1024px) {
+      .mobile-nav { display: none; }
+      .sidebar { display: block; }
+    }
+    main { flex: 1; min-width: 0; padding-bottom: 6rem; }
+
+    /* Sections */
+    .section {
+      scroll-margin-top: 5rem;
+      padding: 2.5rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .hero { padding-top: 3rem; }
+    .sec-head {
+      display: flex;
+      align-items: baseline;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+    .sec-no { font-size: 0.875rem; color: #fb923c; }
+    .sec-title { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em; }
+    @media (min-width: 768px) { .sec-title { font-size: 1.875rem; } }
+
+    .hero-tag {
+      color: #fb923c;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      margin-bottom: 0.75rem;
+    }
+    .hero-h1 {
+      font-size: 1.875rem;
+      font-weight: 800;
+      line-height: 1.25;
+    }
+    @media (min-width: 768px) { .hero-h1 { font-size: 3rem; } }
+    .grad-text {
+      color: transparent;
+      background: linear-gradient(to right, #fb923c, #f43f5e);
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+    .lead {
+      margin-top: 1.25rem;
+      color: #cbd5e1;
+      line-height: 1.625;
+      max-width: 48rem;
+    }
+    .lead b { color: #fff; }
+
+    /* Cards & Grids */
+    .card {
+      border-radius: 0.75rem;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 1.25rem;
+    }
+    .card-title { font-weight: 600; margin-bottom: 0.75rem; color: #fff; }
+    .kpi-grid {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0.75rem;
+    }
+    @media (min-width: 768px) { .kpi-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+    .kpi-card {
+      border-radius: 0.75rem;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+    }
+    .kpi-label { font-size: 0.75rem; color: #94a3b8; }
+    .kpi-val { font-size: 1.5rem; font-weight: 800; margin-top: 0.25rem; }
+    @media (min-width: 768px) { .kpi-val { font-size: 1.875rem; } }
+    .kpi-sub { font-size: 0.75rem; color: #64748b; margin-top: 0.25rem; }
+
+    .grid-2 { display: grid; gap: 0.75rem; }
+    @media (min-width: 768px) { .grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    .grid-sm-2 { display: grid; gap: 0.5rem; }
+    @media (min-width: 640px) { .grid-sm-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    .grid-arch { display: grid; gap: 1rem; }
+    @media (min-width: 1024px) {
+      .grid-arch { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+      .col-span-3 { grid-column: span 3 / span 3; }
+      .col-span-2 { grid-column: span 2 / span 2; }
+    }
+
+    /* Callouts */
+    .callout {
+      margin-top: 1.5rem;
+      border-radius: 0.75rem;
+      padding: 1rem;
+      font-size: 0.875rem;
+      line-height: 1.625;
+    }
+    .callout-orange {
+      border: 1px solid rgba(249, 115, 22, 0.3);
+      background: rgba(249, 115, 22, 0.1);
+    }
+    .callout-cyan {
+      border: 1px solid rgba(34, 211, 238, 0.3);
+      background: rgba(34, 211, 238, 0.1);
+      padding: 1.25rem;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+    }
+    .callout-teal {
+      border: 1px solid rgba(45, 212, 191, 0.3);
+      background: rgba(45, 212, 191, 0.1);
+      padding: 1.25rem;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+    }
+
+    /* Lists */
+    .bullets { display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.875rem; color: #cbd5e1; line-height: 1.625; }
+    .bullets li { display: flex; gap: 0.5rem; }
+    .bullet-arrow { color: #fb923c; margin-top: 0.125rem; }
+    .check-arrow { color: #34d399; }
+
+    /* Budget Bar & Accordion */
+    .stack-bar {
+      display: flex;
+      height: 2.5rem;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      margin-bottom: 0.5rem;
+    }
+    .stack-seg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.8);
+    }
+    .acc-list { display: flex; flex-direction: column; gap: 0.5rem; }
+    .acc-item {
+      border-radius: 0.75rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.03);
+      overflow: hidden;
+    }
+    .acc-btn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      text-align: left;
+    }
+    .acc-btn:hover { background: rgba(255, 255, 255, 0.05); }
+    .acc-dot { width: 0.75rem; height: 0.75rem; border-radius: 0.125rem; flex-shrink: 0; }
+    .acc-name { font-weight: 600; flex: 1; }
+    .acc-prio { display: none; font-size: 0.75rem; color: #94a3b8; }
+    @media (min-width: 640px) { .acc-prio { display: inline; } }
+    .acc-lines { font-size: 0.875rem; width: 5rem; text-align: right; }
+    .acc-caret { color: #64748b; font-size: 0.75rem; }
+    .acc-body { border-top: 1px solid rgba(255, 255, 255, 0.1); overflow-x: auto; }
+    .acc-body[hidden] { display: none; }
+
+    /* Tables */
+    .table-wrap {
+      overflow-x: auto;
+      border-radius: 0.75rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .mod-row { border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+    .mod-row:last-child { border-bottom: 0; }
+    .mod-path { padding: 0.5rem 1rem; font-size: 0.75rem; color: #fdba74; white-space: nowrap; }
+    .mod-lines { padding: 0.5rem; text-align: right; font-size: 0.75rem; white-space: nowrap; }
+    .mod-note { padding: 0.5rem 1rem; font-size: 0.875rem; color: #94a3b8; min-width: 16rem; }
+    .mod-bar-cell { padding: 0.5rem 1rem; width: 7rem; display: none; }
+    @media (min-width: 768px) { .mod-bar-cell { display: table-cell; } }
+    .mod-bar-bg { height: 0.375rem; border-radius: 0.25rem; background: rgba(255, 255, 255, 0.1); }
+    .mod-bar-fg { height: 100%; border-radius: 0.25rem; }
+
+    /* Code / Tree */
+    .pre-box {
+      font-size: 0.75rem;
+      line-height: 1.625;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 0.75rem;
+      padding: 1rem;
+      overflow-x: auto;
+      color: #cbd5e1;
+    }
+    .ol-steps {
+      font-size: 0.875rem;
+      color: #cbd5e1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      list-style: decimal;
+      padding-left: 1.25rem;
+      line-height: 1.625;
+    }
+
+    /* Chips & Checklist */
+    .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+    .chip {
+      font-size: 0.75rem;
+      padding: 0.375rem 0.75rem;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .check-grid {
+      display: grid;
+      gap: 0.375rem 1.5rem;
+      font-size: 0.875rem;
+      color: #cbd5e1;
+    }
+    @media (min-width: 640px) { .check-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+    .check-label { display: flex; gap: 0.5rem; align-items: flex-start; cursor: pointer; }
+    .check-label input { margin-top: 0.25rem; accent-color: #f97316; }
+
+    /* World Spec & Biomes */
+    .world-metrics {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      gap: 0.75rem 2rem;
+    }
+    .scale-compare { margin-top: 1.25rem; display: flex; align-items: flex-end; gap: 1.5rem; }
+    .box-4km { width: 33px; height: 33px; background: rgba(100, 116, 139, 0.7); border: 1px solid rgba(255, 255, 255, 0.3); }
+    .box-12km {
+      width: 100px; height: 100px;
+      background: rgba(34, 211, 238, 0.4);
+      border: 1px solid #67e8f9;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+    }
+    .box-12km > div { border: 1px solid rgba(165, 243, 252, 0.2); }
+    .biome-strip {
+      margin-top: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      border-radius: 0.75rem;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      text-align: center;
+      font-size: 0.75rem;
+    }
+    @media (min-width: 768px) { .biome-strip { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+    .biome-cell { padding: 1.25rem 0.5rem; color: rgba(0, 0, 0, 0.85); font-weight: 600; }
+
+    /* Input Pipeline */
+    .pipeline { display: flex; flex-wrap: wrap; align-items: stretch; gap: 0.5rem; margin-bottom: 1.5rem; }
+    .pipe-step { display: flex; align-items: center; gap: 0.5rem; flex: 1; min-width: 9rem; }
+    .pipe-box {
+      flex: 1; height: 100%;
+      border-radius: 0.5rem;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.75rem;
+    }
+    .tag-teal {
+      font-size: 10px;
+      padding: 0.125rem 0.5rem;
+      border-radius: 0.25rem;
+      background: rgba(45, 212, 191, 0.15);
+      color: #5eead4;
+    }
+
+    /* Control Map Table */
+    .ctrl-table { font-size: 0.75rem; }
+    @media (min-width: 768px) { .ctrl-table { font-size: 0.875rem; } }
+    .ctrl-table thead tr { background: rgba(255, 255, 255, 0.05); color: #94a3b8; text-align: left; }
+    .ctrl-table th { padding: 0.625rem 0.75rem; font-weight: 500; }
+    .ctrl-table td { padding: 0.5rem 0.75rem; border-top: 1px solid rgba(255, 255, 255, 0.05); }
+
+    /* Perf Budget */
+    .perf-item {
+      display: flex;
+      justify-content: space-between;
+      gap: 1rem;
+      border-radius: 0.5rem;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 0.75rem 1rem;
+      font-size: 0.875rem;
+    }
+
+    /* Roadmap */
+    .timeline {
+      position: relative;
+      padding-left: 1.5rem;
+      border-left: 1px solid rgba(255, 255, 255, 0.15);
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+    }
+    .tl-item { position: relative; }
+    .tl-dot {
+      position: absolute;
+      left: -31px;
+      top: 0.25rem;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 9999px;
+      background: #f97316;
+      border: 4px solid #0b0f17;
+    }
+    .tl-head { display: flex; flex-wrap: wrap; align-items: center; gap: 0.25rem 0.75rem; margin-bottom: 0.25rem; }
+    .tl-prog-bg { height: 0.375rem; background: rgba(255, 255, 255, 0.1); border-radius: 0.25rem; margin-bottom: 1rem; }
+    .tl-prog-fg { height: 100%; border-radius: 0.25rem; background: linear-gradient(to right, #fb923c, #f43f5e); }
+
+    /* Workflow & Risks */
+    .flow-list { display: flex; flex-direction: column; gap: 0.75rem; }
+    .flow-item {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+      border-radius: 0.5rem;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+    }
+    .risk-list { display: flex; flex-direction: column; gap: 0.75rem; }
+    .risk-card {
+      border-radius: 0.75rem;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 1rem;
+      display: grid;
+      gap: 0.75rem;
+      font-size: 0.875rem;
+    }
+    @media (min-width: 768px) { .risk-card { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+    /* Text helpers */
+    .text-sm { font-size: 0.875rem; }
+    .text-xs { font-size: 0.75rem; }
+    .text-slate-300 { color: #cbd5e1; }
+    .text-slate-400 { color: #94a3b8; }
+    .text-slate-500 { color: #64748b; }
+    .text-orange-300 { color: #fdba74; }
+    .text-orange-400 { color: #fb923c; }
+    .text-cyan-200 { color: #a5f3fc; }
+    .text-cyan-300 { color: #67e8f9; }
+    .text-teal-300 { color: #5eead4; }
+    .text-emerald-300 { color: #6ee7b7; }
+    .text-emerald-400 { color: #34d399; }
+    .text-rose-300 { color: #fda4af; }
+    .text-rose-400 { color: #fb7185; }
+    .leading-relaxed { line-height: 1.625; }
+    .font-semibold { font-weight: 600; }
+    .font-bold { font-weight: 700; }
+    .font-extrabold { font-weight: 800; }
+    .whitespace-nowrap { white-space: nowrap; }
+    .mt-1 { margin-top: 0.25rem; }
+    .mt-3 { margin-top: 0.75rem; }
+    .mt-4 { margin-top: 1rem; }
+    .mt-6 { margin-top: 1.5rem; }
+    .mt-8 { margin-top: 2rem; }
+    .mt-10 { margin-top: 2.5rem; }
+    .mb-1-5 { margin-bottom: 0.375rem; }
+    .mb-2 { margin-bottom: 0.5rem; }
+    .mb-3 { margin-bottom: 0.75rem; }
+    .mb-5 { margin-bottom: 1.25rem; }
+    .mb-6 { margin-bottom: 1.5rem; }
+    .ml-auto { margin-left: auto; }
+    .text-center { text-align: center; }
+    .text-right { text-align: right; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="header-inner">
+      <div class="brand">
+        <span class="brand-bar"></span>
+        <span>HORIZON-STYLE RACER / 設計書</span>
+      </div>
+      <button id="downloadTop" class="btn-primary">Markdownで保存</button>
+    </div>
+    <nav id="mobileNav" class="mobile-nav"></nav>
+  </header>
+
+  <div class="container">
+    <aside class="sidebar">
+      <div id="sideNav" class="sidebar-sticky"></div>
+    </aside>
+    <main id="appMain"></main>
+  </div>
+
+  <script>
+    const nav = [
+      { id: "overview", label: "概要" },
+      { id: "tech", label: "技術前提" },
+      { id: "budget", label: "行数配分" },
+      { id: "arch", label: "構成" },
+      { id: "car", label: "車グラフィック" },
+      { id: "course", label: "ワールド" },
+      { id: "input", label: "操作方法" },
+      { id: "perf", label: "性能予算" },
+      { id: "roadmap", label: "ロードマップ" },
+      { id: "flow", label: "制作手順" },
+      { id: "risk", label: "リスク" },
+    ];
+
+    const groups = [
+      {
+        id: "car",
+        name: "① 車グラフィック",
+        color: "#f97316",
+        priority: "最優先",
+        modules: [
+          { path: "car/spec/CarSpec.ts", lines: 1500, note: "型定義 + オリジナル車16台の寸法・外観・性能パラメータ表" },
+          { path: "car/geometry/Loft.ts", lines: 1300, note: "断面ロフト、Catmull-Rom/B-spline、細分割、法線再計算、UV生成" },
+          { path: "car/geometry/BodyBuilder.ts", lines: 2700, note: "ボンネット/ドア/ルーフ/フェンダー/バンパーをパネル単位で生成、パネルギャップ、ホイールアーチ" },
+          { path: "car/geometry/GlassAndLamps.ts", lines: 1300, note: "窓ガラス、ヘッドライト(レンズ+リフレクタ+LED)、テールライト、ウィンカー" },
+          { path: "car/geometry/Wheels.ts", lines: 2100, note: "リム(スポーク数/コンケーブ/リップ)、タイヤ断面、サイドウォール文字、ディスク/キャリパー" },
+          { path: "car/geometry/Details.ts", lines: 1300, note: "グリル、ミラー、マフラー、スポイラー、ディフューザー、ナンバー、ワイパー" },
+          { path: "car/geometry/Interior.ts", lines: 1700, note: "ダッシュボード、メーター、シート、ステアリング(コックピット視点用)" },
+          { path: "car/materials/CarMaterials.ts", lines: 1800, note: "クリアコート塗装、メタリックフレーク、カーボン、ゴム、クローム、ガラス、シェーダ拡張" },
+          { path: "car/materials/Livery.ts", lines: 700, note: "Canvasでビニール/デカール/レースナンバー生成、汚れ・濡れマスク" },
+          { path: "car/Rig.ts", lines: 800, note: "サス連動、ステア、ボディロール/ピッチ、ブレーキ発光、ワイパー/ウィンカー動作" },
+          { path: "car/Damage.ts", lines: 800, note: "衝突ダメージ(頂点変形・パーツ脱落・ガラス割れ・ヘコミ法線)、傷/泥/水滴の累積" },
+        ],
+      },
+      {
+        id: "course",
+        name: "② コース・ワールド(12km四方の大型マップ)",
+        color: "#22d3ee",
+        priority: "第2優先(拡大)",
+        modules: [
+          { path: "world/Noise.ts", lines: 700, note: "シード付きノイズ(Simplex/FBM/Ridged/Domain Warp)。Worker内でも動く純関数" },
+          { path: "world/Terrain.ts", lines: 2000, note: "256mチャンク、3段LOD、遠景クリップマップ、継ぎ目処理(スカート)、スプラットシェーダ" },
+          { path: "world/WorldStreamer.ts", lines: 1200, note: "チャンク読込/破棄、Web Worker生成(Blob内蔵)、フローティングオリジン、メモリ上限管理" },
+          { path: "world/Road.ts", lines: 1600, note: "スプライン道路、バンク、路面メッシュ、ライン/縁石/ガードレール、橋/トンネル、地形の整地" },
+          { path: "world/RoadNetwork.ts", lines: 1000, note: "道路グラフ(高速/幹線/山道/ダート)、交差点、街どうしの接続、総延長約250km" },
+          { path: "world/Vegetation.ts", lines: 1500, note: "6バイオームの木/サボテン/ヤシ/草/岩をInstancedMesh+チャンク単位で配置、距離フェード" },
+          { path: "world/Biomes.ts", lines: 600, note: "標高・湿度・傾斜からのバイオーム分類、地表マテリアル配分、色調" },
+          { path: "world/Sky.ts", lines: 1000, note: "大気散乱、太陽/月、雲、星、時刻・天候による環境光とフォグ" },
+          { path: "world/Props.ts", lines: 1300, note: "都市1・町3・村6の手続き生成、家屋/看板/電柱、農地、風車、灯台など" },
+          { path: "world/Water.ts", lines: 600, note: "海・湖・川・滝の水面シェーダ(反射/屈折/波)" },
+          { path: "world/Route.ts", lines: 500, note: "レースルート定義(最長25km)、チェックポイント、ファストトラベル、リスポーン" },
+        ],
+      },
+      {
+        id: "physics",
+        name: "③ 物理・運転",
+        color: "#a3e635",
+        priority: "第3優先",
+        modules: [
+          { path: "physics/RigidBody.ts", lines: 600, note: "固定120Hz積分、剛体、クォータニオン姿勢" },
+          { path: "physics/Tire.ts", lines: 1000, note: "Pacejka系タイヤ、荷重依存、複合スリップ(摩擦楕円)、熱/摩耗(簡易)" },
+          { path: "physics/Drivetrain.ts", lines: 800, note: "トルクカーブ、ギア、クラッチ、LSD、AWD配分、ターボ" },
+          { path: "physics/Suspension.ts", lines: 600, note: "ばね/ダンパー/スタビ、空力(ダウンフォース/ドラッグ)" },
+          { path: "physics/Surface.ts", lines: 700, note: "路面種別のグリップ、レイキャスト接地、車体コリジョン" },
+          { path: "physics/Assists.ts", lines: 300, note: "ABS/TCS/STM/ステアリング補助(アーケード寄り調整)" },
+        ],
+      },
+      {
+        id: "render",
+        name: "④ レンダリング",
+        color: "#c084fc",
+        priority: "車の見栄えを底上げ",
+        modules: [
+          { path: "render/Pipeline.ts", lines: 600, note: "レンダラー初期化、解像度スケール、品質プリセット" },
+          { path: "render/PostFX.ts", lines: 1400, note: "HDR、ブルーム、トーンマップ、SSAO、モーションブラー、DOF、色調整" },
+          { path: "render/Shadows.ts", lines: 600, note: "CSM(カスケードシャドウ)、車の接地影" },
+          { path: "render/EnvProbe.ts", lines: 500, note: "動的環境マップ(キューブ)、ショールーム用スタジオ環境" },
+          { path: "render/QualityScaler.ts", lines: 500, note: "動的解像度、スマホ向けプリセット、フレーム時間監視による自動品質調整、発熱対策" },
+          { path: "render/Particles.ts", lines: 400, note: "タイヤ煙、砂埃、雨、火花" },
+        ],
+      },
+      {
+        id: "ui",
+        name: "⑤ UI",
+        color: "#f472b6",
+        priority: "第4優先",
+        modules: [
+          { path: "ui/Hud.ts", lines: 650, note: "スピード/タコ/ギア、ミニマップ、ラップ、順位" },
+          { path: "ui/Garage.ts", lines: 700, note: "ショールーム、車選択、塗装/ホイール変更、スペック表示" },
+          { path: "ui/Menus.ts", lines: 450, note: "タイトル、設定、ポーズ、リザルト" },
+          { path: "ui/PhotoMode.ts", lines: 300, note: "フリーカメラ、DOF/露出、スクリーンショット" },
+          { path: "ui/WorldMap.ts", lines: 400, note: "12km全域マップ、ズーム、イベント地点、ファストトラベル、目的地ルート表示" },
+        ],
+      },
+      {
+        id: "ai",
+        name: "⑥ AI・レース",
+        color: "#facc15",
+        priority: "第5優先",
+        modules: [
+          { path: "ai/Driver.ts", lines: 700, note: "ライン追従、ブレーキ点計算、ラバーバンド、ミス" },
+          { path: "ai/Traffic.ts", lines: 400, note: "一般車(高速/町内)の簡易走行、距離でスポーン/デスポーン" },
+          { path: "ai/RaceRules.ts", lines: 200, note: "周回、チェックポイント、順位、リセット" },
+        ],
+      },
+      {
+        id: "audio",
+        name: "⑦ オーディオ",
+        color: "#60a5fa",
+        priority: "第5優先",
+        modules: [
+          { path: "audio/EngineSynth.ts", lines: 700, note: "WebAudioによるエンジン合成(回転・負荷・気筒数・ターボ/吸気音)" },
+          { path: "audio/Ambient.ts", lines: 300, note: "タイヤ、風、路面、環境音" },
+          { path: "audio/UiMusic.ts", lines: 200, note: "UI効果音、簡易BGMシーケンサ" },
+        ],
+      },
+      {
+        id: "systems",
+        name: "⑧ システム",
+        color: "#fb7185",
+        priority: "土台",
+        modules: [
+          { path: "systems/Camera.ts", lines: 400, note: "チェイス/ボンネット/コックピット/ショールーム周回" },
+          { path: "systems/Save.ts", lines: 250, note: "localStorage、進行・所持車・設定・発見済みエリア" },
+          { path: "systems/State.ts", lines: 250, note: "ゲーム状態機械、イベント" },
+        ],
+      },
+      {
+        id: "input",
+        name: "⑩ 入力・操作(キーボード/スマホ/Xbox/Switch Pro)",
+        color: "#2dd4bf",
+        priority: "新規追加",
+        modules: [
+          { path: "input/InputManager.ts", lines: 600, note: "デバイス抽象化、アクション層、自動検出とホットスワップ、最後に使った入力でUI表示を切替" },
+          { path: "input/Keyboard.ts", lines: 300, note: "KeyboardEvent.code基準(配列非依存)、複数キー割当、デジタル→アナログ変換" },
+          { path: "input/Gamepad.ts", lines: 900, note: "Gamepad API、Xbox/Switch Pro/汎用のプロファイル判定、デッドゾーン、トリガー処理、振動" },
+          { path: "input/Touch.ts", lines: 1000, note: "Pointer Eventsのマルチタッチ、画面ホイール/ペダル/ボタン、傾きステア、触覚、全画面・横向き固定" },
+          { path: "input/Bindings.ts", lines: 500, note: "アクション定義、デバイス別の既定割当、重複検出、保存/復元" },
+          { path: "input/Glyphs.ts", lines: 500, note: "ボタン表示(Xbox配置/Nintendo配置/キー/タッチ)をCanvas・SVGで生成(ロゴ非使用)" },
+          { path: "input/SteeringFilter.ts", lines: 400, note: "ステア応答カーブ、速度依存舵角、キー操作の立上り/戻り、トリガー擬似アナログ" },
+          { path: "input/MenuNav.ts", lines: 400, note: "メニューのフォーカス移動(十字キー/スティック/キー/タッチ)、決定・戻る" },
+          { path: "input/InputSettings.ts", lines: 700, note: "設定画面: リマップ、感度/デッドゾーン調整、コントローラーテスト、振動テスト、タッチ配置エディタ" },
+        ],
+      },
+      {
+        id: "core",
+        name: "⑨ コア・ツール",
+        color: "#94a3b8",
+        priority: "土台",
+        modules: [
+          { path: "core/bootstrap.ts", lines: 200, note: "起動、ローディング、メインループ" },
+          { path: "core/math.ts", lines: 250, note: "ベクトル/補間/スプライン/乱数ユーティリティ" },
+          { path: "core/debug.ts", lines: 200, note: "FPS/三角形数/ドローコール表示、パラメータ調整パネル" },
+          { path: "core/test.ts", lines: 150, note: "自己診断(物理の数値検証、ジオメトリ検証)" },
+        ],
+      },
+    ];
+
+    const phases = [
+      {
+        id: "M0",
+        name: "基盤とショールーム枠",
+        lines: 1200,
+        goal: "空の車を表示できる土台と、1ファイル化パイプラインを完成させる",
+        deliverables: ["Three.js起動・メインループ(最小レンダラー)", "ショールーム用カメラ/ライト", "デバッグHUD", "pack.mjs(1ファイル化)の動作確認"],
+        accept: ["npm run build が通る", "dist/index.html 単体でオフライン起動", "60fpsで空シーン"],
+      },
+      {
+        id: "M1",
+        name: "車体ジオメトリと塗装",
+        lines: 7500,
+        goal: "「ひと目で車に見える」ボディと、クリアコート塗装の質感を完成させる",
+        deliverables: ["Loftによる車体生成(8種のボディ型)", "パネルギャップ/ホイールアーチ", "メタリック塗装+クリアコート+フレーク", "車ごとのパラメータ表(3台先行)"],
+        accept: ["横/前/斜めの3面で破綻のない輪郭", "反射のグラデーションが滑らか(法線の継ぎ目なし)", "ヒーロー車 約30万三角形以内"],
+      },
+      {
+        id: "M2",
+        name: "車ディテール(ホイール・灯火・内装)",
+        lines: 8500,
+        goal: "FH5風の“近くで見ても耐える”密度にする",
+        deliverables: ["ホイール数種+ブレーキ", "ヘッド/テールライトの多層構造", "グリル/ミラー/排気/スポイラー", "コックピット内装", "リバリー・汚れ・濡れ", "車16台に拡張", "ダメージ表現(変形・脱落・ガラス割れ)"],
+        accept: ["ショールーム全周で違和感なし", "夜間のライト点灯でブルームが効く", "車LOD0〜3の自動切替"],
+      },
+      {
+        id: "M3",
+        name: "レンダリング品質",
+        lines: 4000,
+        goal: "車の反射・陰影・動きの見栄えを映像レベルへ",
+        deliverables: ["HDRポスト(ブルーム/トーンマップ/SSAO)", "動的解像度とスマホ向け品質", "CSM+接地影", "動的環境マップ反射", "モーションブラー/DOF", "粒子(煙/砂/雨)"],
+        accept: ["品質プリセット4段階(スマホ向けを含む)", "PCの中品質で60fps(ミドル級GPU)", "ハイエンドスマホの低品質で30fps"],
+      },
+      {
+        id: "M4",
+        name: "大型ワールド: 地形・ストリーミング・道路網",
+        lines: 7000,
+        goal: "12km四方を途切れなく走れる地形と、250km規模の道路網を作る",
+        deliverables: ["ハイトマップ+3段LOD+遠景クリップマップ", "Workerによるチャンク生成とストリーミング", "フローティングオリジン", "スプライン道路+橋/トンネル", "道路グラフ(高速/幹線/山道/ダート)", "レースルート/ファストトラベル"],
+        accept: ["12km四方を最高速で走っても読込落ちなし(ポップ許容範囲内)", "チャンク生成で1フレーム8ms超のスパイクなし", "道路継ぎ目に段差なし", "メモリ使用量 約1GB以内"],
+      },
+      {
+        id: "M5",
+        name: "ワールド環境(6バイオーム・街・空・水)",
+        lines: 5000,
+        goal: "メキシコ風を連想する“オリジナル地域”の世界観を、広いマップ全体に行き渡らせる",
+        deliverables: ["6バイオーム(海岸/砂漠/ジャングル/火山山岳/農地平原/湿地湖)", "都市1・町3・村6の手続き生成", "大気散乱+時刻変化+天候", "海・湖・川・滝"],
+        accept: ["インスタンス描画でドローコール500以内", "昼/夕/夜/雨で破綻なし", "バイオーム境界が自然につながる"],
+      },
+      {
+        id: "M6",
+        name: "物理・運転感覚",
+        lines: 4000,
+        goal: "気持ちよく曲がる“シムケード”挙動",
+        deliverables: ["タイヤ/ドライブトレイン/サス/空力", "路面別グリップ", "運転補助", "車ごとの味付け(FF/FR/MR/AWD)"],
+        accept: ["駆動方式で挙動の差が体感できる", "120Hz固定ステップで安定(暴れない)", "自己診断テスト合格"],
+      },
+      {
+        id: "M7",
+        name: "入力・操作(キーボード/スマホ/Xbox/Switch Pro)",
+        lines: 5300,
+        goal: "4種類の操作デバイスで、同じ車が同じように気持ちよく操れる状態にする",
+        deliverables: ["入力の抽象化(アクション層)とホットスワップ", "キーボード: リマップ+滑らかなデジタルステア", "Xbox/Switch Proコントローラー: プロファイル判定・デッドゾーン・振動", "スマホ: 画面ホイール/ペダル/傾きステア/配置エディタ", "ボタン表示の自動切替(Glyphs)", "メニュー操作とコントローラーテスト画面"],
+        accept: ["4デバイスすべてでレースを完走できる", "デバイスを抜き差し/切替しても操作が途切れない", "Xbox/Switch Proでボタン表示が正しい配置になる", "スマホ(横向き)で2本指同時操作ができ、誤タッチでメニューが出ない"],
+      },
+      {
+        id: "M8",
+        name: "サウンド・AI・UI・進行",
+        lines: 5100,
+        goal: "ゲームとして遊べるループを完成させる",
+        deliverables: ["エンジン合成音", "AIライバル+一般車", "HUD/ガレージ/メニュー/フォトモード/12km全域マップ", "セーブ・進行・イベント"],
+        accept: ["レースを1本完走してリザルト表示", "ガレージで塗装変更が反映", "全域マップからファストトラベルできる"],
+      },
+      {
+        id: "M9",
+        name: "統合・最適化・仕上げ",
+        lines: 400,
+        goal: "最終1ファイルとして配布できる状態にする",
+        deliverables: ["性能チューニング", "バグ修正", "最終1ファイル化と行数集計"],
+        accept: ["合計 48,000行前後(最低ライン40,000行を上回る)", "dist/index.html 1枚で動作"],
+      },
+    ];
+
+    const carStages = [
+      {
+        title: "1. 形状: パラメトリック・ロフト",
+        items: [
+          "側面シルエット(Z-Y)・平面形(X-Z)・正面断面(X-Y)の3方向カーブから、約24〜40個の断面(スーパー楕円)を並べて曲面化",
+          "ボディ型を10種(ハッチ/クーペ/セダン/マッスル/スーパーカー/ハイパーカー/SUV/ピックアップ/ライトウェイト/バギー)用意し、数値パラメータで16台に派生",
+          "パネル単位(ボンネット/ドア/フェンダー/バンパー/ルーフ/トランク)で分割し、1〜3mmの目地とアーチを幾何で表現",
+          "法線は解析的に計算し、ハードエッジ(折り目)だけ分離して反射の継ぎ目を防ぐ",
+        ],
+      },
+      {
+        title: "2. 質感: 多層塗装マテリアル",
+        items: [
+          "MeshPhysicalMaterial + onBeforeCompile 拡張で ベースカラー/メタリックフレーク(ノイズ法線)/クリアコート/オレンジピール を再現",
+          "カラーはHSV+フロップ(角度で色味が変わる)対応。マット/サテン/パール/カーボンも同一シェーダで切替",
+          "ガラス: 透過+反射+薄い色味、内装が透ける。ヘッドライト: レンズ+リフレクタ+プロジェクタの3層",
+          "タイヤ: ゴム+サイドウォール文字(Canvasテクスチャ)+ブレーキダスト",
+        ],
+      },
+      {
+        title: "3. ライティング: 反射が“車らしさ”を決める",
+        items: [
+          "ショールーム: 手続き生成のスタジオHDR(ソフトボックス+床反射)を環境マップに使用",
+          "走行中: 空+地形の簡易キューブマップを5〜10フレームに1面更新(動的反射)",
+          "接地影+車下AO、CSMシャドウ、夜はヘッドライトのスポット+ライトコーン",
+          "ブルームの閾値をテールランプ/ヘッドライトにだけ効かせる(HDR発光)",
+        ],
+      },
+      {
+        title: "4. 動き: リグとダメージ",
+        items: [
+          "ホイールは物理のサス位置/回転/ステア角に直結。ブレーキ時にディスクが赤熱",
+          "ボディのロール/ピッチ/ダイブをサス値から算出",
+          "頂点シェーダによる軽いダメージ変形(バンパー/フェンダー)",
+          "LOD0(約30万△) / LOD1(約8万△) / LOD2(約2万△) / LOD3(ボックス+テクスチャ)",
+        ],
+      },
+    ];
+
+    const worldSpec = [
+      { k: "面積", v: "12km × 12km(約144km²)。従来案(4km四方)の9倍" },
+      { k: "チャンク", v: "256m角 × 47×47 = 2,209チャンク(必要分だけ生成・破棄)" },
+      { k: "描画距離", v: "高精細〜1.5km / 中精細〜3km / 遠景クリップマップ〜8km / さらに先は空とフォグ" },
+      { k: "生成方式", v: "完全手続き(固定シード)。保存データなし。チャンク生成はWeb Worker" },
+      { k: "座標", v: "フローティングオリジン(原点から2km離れたら再基準化)で浮動小数誤差を防止" },
+      { k: "バイオーム", v: "海岸 / 砂漠 / ジャングル / 火山山岳 / 農地平原 / 湿地湖 の6種" },
+      { k: "集落", v: "都市1 / 町3 / 村6" },
+      { k: "道路", v: "高速・幹線・山道・ダートの道路網。総延長 約250km" },
+      { k: "移動時間の目安", v: "端から端まで 時速300kmで約2.4分、時速120kmで約6分" },
+    ];
+
+    const courseStages = [
+      {
+        title: "ワールド構成(オリジナル地域「コスタ・ソル」)",
+        items: [
+          "12km四方を256mチャンクで管理。カメラ周辺だけ生成し、遠いチャンクは破棄(ストリーミング)",
+          "標高・湿度・傾斜から6バイオームを自動配分し、大きな地形ノイズで高低差(海面〜火山の山頂)をつくる",
+          "実在地名・ロゴ・ブランドは使わず、雰囲気のみを参考にしたオリジナルで構成",
+        ],
+      },
+      {
+        title: "ストリーミングと大規模対策",
+        items: [
+          "チャンク生成は Web Worker(Blobで内蔵し1ファイルでも動作)。メインスレッドはメッシュ化のみ、1フレームの予算は8ms",
+          "LODは3段+遠景クリップマップ。継ぎ目はスカートと頂点モーフで隠す",
+          "道路グラフは起動時に粗いグリッドで計算(約2〜3秒)し、詳細メッシュはチャンクごとに生成",
+          "メモリ上限を決めてLRUで破棄。速度が高いほど進行方向の先読みを強化",
+        ],
+      },
+      {
+        title: "道路と見どころ",
+        items: [
+          "Catmull-Romスプラインを主データに、バンク/幅/路面種別を制御点に持たせる",
+          "高速(直線・広幅)、山道(ヘアピン)、ダート、橋、トンネルを道路グラフから自動生成",
+          "レースルートは周回3km〜長距離25kmまで。ファストトラベル地点と全域マップを用意",
+        ],
+      },
+      {
+        title: "環境",
+        items: [
+          "植生はInstancedMesh+距離フェードで10万〜30万本(チャンク単位で再利用)",
+          "空は大気散乱シェーダ、時刻でライト色・フォグ・星を連動",
+          "雨は粒子+路面の濡れ(グリップ低下+反射増)",
+        ],
+      },
+    ];
+
+    const techDecisions = [
+      { k: "描画", v: "Three.js(WebGL2)。npmでバンドルし最終HTMLへインライン化。WebGPUは将来オプション" },
+      { k: "言語", v: "TypeScript(開発時)→ esbuildで1ファイルのJSへ" },
+      { k: "アセット", v: "外部ファイルなし。形状・テクスチャ・音はすべてコードで手続き生成" },
+      { k: "1ファイル化", v: "scripts/pack.mjs が esbuild でバンドルし index.html の <script> に埋め込み(package.json/vite設定は触らない)" },
+      { k: "行数の方針", v: "40,000行は最低ライン、目標は48,000行。品質が上がるなら超過は歓迎。自作コードのみ(Three.js等は含まない)、水増しはしない" },
+      { k: "対象環境", v: "PC: Chrome/Edge/Firefox(ミドル級GPU)。スマホ: ハイエンド機のChrome/Safari、横向き、低品質プリセットで30fps" },
+      { k: "操作デバイス", v: "PCキーボード / スマホタッチ(画面操作・傾き) / Xboxコントローラー / Nintendo Switch Proコントローラー。ホットスワップ対応" },
+    ];
+
+    const perfBudget = [
+      { k: "ヒーロー車(ショールーム)", v: "〜300,000 三角形" },
+      { k: "走行中の自車(LOD1)", v: "〜80,000 三角形" },
+      { k: "AI/一般車(LOD2〜3)", v: "各 2,000〜20,000 三角形" },
+      { k: "1フレーム総三角形", v: "〜2,500,000" },
+      { k: "ドローコール", v: "〜500(インスタンス前提)" },
+      { k: "ワールド生成", v: "1フレーム8ms以内(Worker+分割)、起動時の初期化 3秒以内" },
+      { k: "メモリ", v: "約1GB以内(チャンクはLRUで破棄)" },
+      { k: "物理ステップ", v: "120Hz固定、描画と分離" },
+      { k: "目標FPS", v: "PC 60fps(中品質) / スマホ 30fps(低品質) / 最低でも動的解像度で維持" },
+      { k: "スマホ(低品質)", v: "解像度スケール0.6〜0.75、影1段、動的反射オフ、植生密度50%、粒子半減" },
+      { k: "入力遅延", v: "入力取得は描画ループ直前に毎フレーム1回(Gamepadはポーリング)、物理ステップへは最新値を渡す" },
+    ];
+
+    const workflow = [
+      "1ファイルは 600〜900行を上限に分割して作成(1回の出力に収まるサイズ)",
+      "各ファイル冒頭に『責務・公開API・依存』をコメントで明記し、後のセッションでも文脈が復元できるようにする",
+      "各フェーズ末にビルドを通し、dist/index.html をブラウザで確認して合格基準をチェック",
+      "車は『1台完成→パラメータ化→16台展開』の順。最初の1台で品質を完全に詰めてから量産する",
+      "進捗は docs/PROGRESS.md に『完了ファイル/行数/次の作業/既知の問題』を毎回更新",
+      "最終は node scripts/pack.mjs で全モジュールを1つのHTMLに結合し、行数を集計",
+      "1セッション(約75ツール操作)で約5,000〜6,000行 → 全体で約9〜10セッションが目安",
+    ];
+
+    const risks = [
+      { r: "手続き生成だけでは車の形が不自然になる", c: "最初に3台だけで形状を詰める。参照図(三面図)の数値をパラメータ表へ落とす。Loft断面数を増やせる設計" },
+      { r: "反射やポストで重くなる", c: "品質プリセット、解像度スケール、動的反射の更新間引き。パフォーマンス予算を常時デバッグHUDで監視" },
+      { r: "4万行で後半に整合が崩れる", c: "公開APIを先に固定、core/test.tsで自己診断、フェーズごとにビルド確認" },
+      { r: "出力サイズ・ツール回数の制限", c: "ファイル分割とPROGRESS.mdで継続可能にする。1ファイルは最後に結合" },
+      { r: "ワールドが広すぎて重い/ポップが目立つ", c: "Worker生成、3段LOD+遠景クリップマップ、速度連動の先読み、メモリ上限。規模は定数で調整でき、最悪でも8km四方へ縮小可能" },
+      { r: "Switch Proがブラウザ/OSごとに認識がばらつく(標準配置/非標準、ZL/ZRがデジタル)", c: "標準マッピングを優先し、ベンダーID判定のフォールバック表を用意。ZL/ZRは押下時間による擬似アナログ化。コントローラーテスト画面で利用者自身が確認・リマップ可能" },
+      { r: "スマホで重い・タッチ操作が難しい", c: "QualityScalerで動的解像度、画面ホイール/傾き/ボタンを選択可能、配置・大きさ・透明度を編集可能、アシスト(自動アクセル等)を用意" },
+      { r: "著作権・商標", c: "実在車名/ロゴ/FH5の固有資産は使用しない。名称・デザインはすべてオリジナル" },
+      { r: "行数のための水増し", c: "行数は目安。意味のない水増しはせず、車種データ・パラメータ表・ディテール追加で自然に到達させる" },
+    ];
+
+    const fileTree = `src/
+├─ main.tsx                 (薄い起動。ゲーム本体は game/ に隔離)
+└─ game/
+   ├─ core/        bootstrap, math, debug, test
+   ├─ systems/     camera, save, state
+   ├─ input/       InputManager, Keyboard, Gamepad, Touch, Bindings, Glyphs, SteeringFilter, MenuNav, InputSettings
+   ├─ car/
+   │   ├─ spec/       CarSpec (16台のパラメータ)
+   │   ├─ geometry/   Loft, BodyBuilder, GlassAndLamps, Wheels, Details, Interior
+   │   ├─ materials/  CarMaterials, Livery
+   │   ├─ Rig.ts
+   │   └─ Damage.ts
+   ├─ world/       Noise, Terrain, WorldStreamer, Road, RoadNetwork, Vegetation, Biomes, Sky, Props, Water, Route
+   ├─ physics/     RigidBody, Tire, Drivetrain, Suspension, Surface, Assists
+   ├─ render/      Pipeline, PostFX, Shadows, EnvProbe, QualityScaler, Particles
+   ├─ audio/       EngineSynth, Ambient, UiMusic
+   ├─ ai/          Driver, Traffic, RaceRules
+   └─ ui/          Hud, Garage, Menus, PhotoMode, WorldMap
+scripts/
+└─ pack.mjs         全モジュール → dist/game.html (1ファイル)
+docs/
+└─ PROGRESS.md      進捗と次の作業`;
+
+    const carLineup = [
+      "ハッチバック(ホットハッチ)", "コンパクトクーペ", "セダン(ラリー系)", "マッスルクーペ",
+      "ミッドシップ・スポーツ", "スーパーカー", "ハイパーカー", "ラリーカー",
+      "SUV", "ピックアップ", "クラシック・スポーツ", "オープンカー",
+      "ライトウェイト(軽量FR)", "4ドアGT", "オフロードバギー", "クラシック・ラリー",
+    ];
+
+    const inputDevices = [
+      {
+        id: "kb",
+        name: "PC キーボード",
+        tag: "KEYBOARD",
+        items: [
+          "KeyboardEvent.code 基準で割当(AZERTY等の配列でもWASDの位置で動く)",
+          "ステアは立上り/戻り速度と速度依存の舵角制限で、キーでも滑らかに曲がる",
+          "1アクションに複数キーを割当可能、全キーをリマップ可能",
+          "矢印キー/Spaceのスクロールを抑止、ポーズ中はEscで復帰",
+          "マウスはフォトモード・ガレージのカメラ操作に使用",
+        ],
+      },
+      {
+        id: "touch",
+        name: "スマホ タッチ",
+        tag: "TOUCH",
+        items: [
+          "3つの操作方式: 画面ホイール / 左右ボタン / 傾き(DeviceOrientation、iOSは権限要求に対応)",
+          "右にアクセル/ブレーキのペダル、ギア・ハンドブレーキ・視点切替ボタン。2本指同時操作に対応",
+          "ボタンの位置・大きさ・透明度を編集するレイアウトエディタ、セーフエリア対応",
+          "全画面+横向き固定、画面スリープ防止(Wake Lock)、拡大/長押しメニューの抑止、Androidは触覚フィードバック",
+          "アシスト(オートアクセル、強めのステア補正、ABS/TCS強)で操作難度を下げられる",
+        ],
+      },
+      {
+        id: "xbox",
+        name: "Xbox コントローラー",
+        tag: "XBOX",
+        items: [
+          "Gamepad APIの標準マッピングで認識(有線/Bluetooth)",
+          "RT/LTはアナログ値でアクセル/ブレーキ、左スティックでステア",
+          "スティックはスケール付き放射状デッドゾーン、感度/直線性を調整可能",
+          "振動: dual-rumbleでエンジン・縁石・路面・衝突を表現(対応ブラウザのみ、未対応は自動で無効)",
+          "ボタン表示はXbox配置(A/B/X/Y)に自動切替",
+        ],
+      },
+      {
+        id: "pro",
+        name: "Nintendo Switch Pro コントローラー",
+        tag: "SWITCH PRO",
+        items: [
+          "ベンダー/プロダクトIDで判定し、標準マッピング時は標準、非標準時は専用フォールバック表で変換",
+          "ZL/ZRはデジタルボタンのため、押下時間で0→1に立ち上げる擬似アナログ(立上り速度は設定可)",
+          "ボタンは『位置』基準で割当(下ボタン=Xbox A / Pro B)。表示はNintendo配置のラベルへ自動切替",
+          "スティックのドリフト対策として大きめの初期デッドゾーン+キャリブレーション画面",
+          "ジャイロはWebから取得できないため非対応。振動は対応環境のみ。未対応時は画面フラッシュ等で代替",
+        ],
+      },
+    ];
+
+    const inputPipeline = [
+      { n: "デバイス層", d: "Keyboard / Touch / Gamepad が生イベントを取得" },
+      { n: "正規化", d: "デッドゾーン・トリガー処理・擬似アナログ化・プロファイル変換" },
+      { n: "アクション層", d: "『アクセル/ブレーキ/ステア…』の抽象アクションへ(Bindings)" },
+      { n: "SteeringFilter", d: "応答カーブ・速度依存舵角・平滑化" },
+      { n: "車両入力", d: "物理120Hzステップへ最新値を渡す" },
+    ];
+
+    const controlMap = [
+      { a: "アクセル", kb: "W / ↑", xbox: "RT", pro: "ZR(擬似アナログ)", touch: "右ペダル" },
+      { a: "ブレーキ/後退", kb: "S / ↓", xbox: "LT", pro: "ZL(擬似アナログ)", touch: "左ペダル" },
+      { a: "ステア", kb: "A D / ← →", xbox: "左スティック", pro: "左スティック", touch: "画面ホイール/傾き/左右ボタン" },
+      { a: "ハンドブレーキ", kb: "Space", xbox: "A(下ボタン)", pro: "B(下ボタン)", touch: "HBボタン" },
+      { a: "ギアアップ/ダウン", kb: "E / Q", xbox: "RB / LB", pro: "R / L", touch: "▲▼ボタン" },
+      { a: "視点切替", kb: "C", xbox: "Y(上ボタン)", pro: "X(上ボタン)", touch: "カメラボタン" },
+      { a: "後方確認", kb: "Z", xbox: "R3(右スティック押込)", pro: "R3", touch: "長押しカメラ" },
+      { a: "リワインド", kb: "Backspace", xbox: "X(左ボタン)", pro: "Y(左ボタン)", touch: "巻き戻しボタン" },
+      { a: "ライト/ホーン", kb: "L / H", xbox: "十字キー上 / L3", pro: "十字キー上 / L3", touch: "アイコン" },
+      { a: "マップ", kb: "M", xbox: "View", pro: "−", touch: "マップアイコン" },
+      { a: "ポーズ", kb: "Esc / P", xbox: "Menu", pro: "+", touch: "右上アイコン" },
+      { a: "フォトモード", kb: "F", xbox: "十字キー下", pro: "十字キー下", touch: "メニュー内" },
+      { a: "視点操作", kb: "マウス/矢印", xbox: "右スティック", pro: "右スティック", touch: "画面ドラッグ" },
+    ];
+
+    const groupTotal = (g) => g.modules.reduce((a, m) => a + m.lines, 0);
+    const totalLines = groups.reduce((a, g) => a + groupTotal(g), 0);
+    const phaseTotal = phases.reduce((a, p) => a + p.lines, 0);
+    const fmt = (n) => n.toLocaleString("ja-JP");
+    const esc = (s) => String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+
+    function toMarkdown() {
+      const L = [];
+      L.push("# ホライゾン風レーシングゲーム 設計書(最低40,000行・目標48,000行・最終1ファイルHTML)\n");
+      L.push("## 1. 技術前提\n");
+      techDecisions.forEach((t) => L.push(`- **${t.k}**: ${t.v}`));
+      L.push("\n## 2. 行数配分(合計 " + totalLines.toLocaleString() + " 行)\n");
+      groups.forEach((g) => {
+        L.push(`### ${g.name} — ${groupTotal(g).toLocaleString()}行(${g.priority})\n`);
+        L.push("| ファイル | 行数 | 内容 |\n|---|---:|---|");
+        g.modules.forEach((m) => L.push(`| ${m.path} | ${m.lines} | ${m.note} |`));
+        L.push("");
+      });
+      L.push("## 3. ファイル構成\n```\n" + fileTree + "\n```\n");
+      L.push("## 4. 車グラフィック設計\n");
+      carStages.forEach((s) => {
+        L.push(`### ${s.title}`);
+        s.items.forEach((i) => L.push(`- ${i}`));
+        L.push("");
+      });
+      L.push("車種ラインナップ(オリジナル): " + carLineup.join(" / ") + "\n");
+      L.push("## 5. コース・ワールド設計\n");
+      L.push("### ワールド規模\n");
+      worldSpec.forEach((w) => L.push(`- **${w.k}**: ${w.v}`));
+      L.push("");
+      courseStages.forEach((s) => {
+        L.push(`### ${s.title}`);
+        s.items.forEach((i) => L.push(`- ${i}`));
+        L.push("");
+      });
+      L.push("## 6. 操作・入力設計\n");
+      inputDevices.forEach((d) => {
+        L.push(`### ${d.name}`);
+        d.items.forEach((i) => L.push(`- ${i}`));
+        L.push("");
+      });
+      L.push("処理パイプライン: " + inputPipeline.map((p) => p.n).join(" → ") + "\n");
+      L.push("| 操作 | キーボード | Xbox | Switch Pro | スマホ |\n|---|---|---|---|---|");
+      controlMap.forEach((c) => L.push(`| ${c.a} | ${c.kb} | ${c.xbox} | ${c.pro} | ${c.touch} |`));
+      L.push("\n## 7. パフォーマンス予算\n");
+      perfBudget.forEach((p) => L.push(`- ${p.k}: ${p.v}`));
+      L.push("\n## 8. ロードマップ\n");
+      phases.forEach((p) => {
+        L.push(`### ${p.id} ${p.name}(${p.lines.toLocaleString()}行)`);
+        L.push(`目的: ${p.goal}\n`);
+        L.push("成果物:");
+        p.deliverables.forEach((d) => L.push(`- ${d}`));
+        L.push("\n合格基準:");
+        p.accept.forEach((d) => L.push(`- [ ] ${d}`));
+        L.push("");
+      });
+      L.push("## 9. 分割制作ワークフロー\n");
+      workflow.forEach((w, i) => L.push(`${i + 1}. ${w}`));
+      L.push("\n## 10. リスクと対策\n");
+      risks.forEach((r) => L.push(`- **${r.r}** → ${r.c}`));
+      return L.join("\n");
+    }
+
+    function downloadMarkdown() {
+      const blob = new Blob([toMarkdown()], { type: "text/markdown;charset=utf-8" });
+      const a = document.createElement("a");
+      a.href = URL.createObjectURL(blob);
+      a.download = "DESIGN.md";
+      a.click();
+      URL.revokeObjectURL(a.href);
+    }
+
+    const bullets = (items) => `<ul class="bullets">${items.map((t) => `<li><span class="bullet-arrow">▸</span><span>${esc(t)}</span></li>`).join("")}</ul>`;
+    const card = (title, body, accent) => `
+      <div class="card" ${accent ? `style="border-top: 3px solid ${accent};"` : ""}>
+        ${title ? `<h3 class="card-title">${esc(title)}</h3>` : ""}
+        ${body}
+      </div>`;
+    const sectionHead = (no, title) => `
+      <div class="sec-head">
+        <span class="mono sec-no">${esc(no)}</span>
+        <h2 class="sec-title">${esc(title)}</h2>
+      </div>`;
+
+    const carLines = groupTotal(groups[0]);
+    const inputLines = groupTotal(groups.find((g) => g.id === "input"));
+    const courseLines = groupTotal(groups[1]);
+
+    // Render Nav
+    document.getElementById("mobileNav").innerHTML = nav.map((n, i) =>
+      `<a href="#${n.id}" data-nav="${n.id}" class="mobile-pill ${i === 0 ? "active" : ""}">${esc(n.label)}</a>`
+    ).join("");
+    document.getElementById("sideNav").innerHTML = nav.map((n, i) =>
+      `<a href="#${n.id}" data-nav="${n.id}" class="side-link ${i === 0 ? "active" : ""}">${esc(n.label)}</a>`
+    ).join("");
+
+    // Render Main
+    const checklistItems = [
+      "側面・前面・斜め前・斜め後ろの4方向で輪郭が自然",
+      "反射ハイライトが連続し、法線の継ぎ目が見えない",
+      "パネルの目地・ホイールアーチの隙間が自然",
+      "ヘッドライト内部の奥行きが見える",
+      "ホイール/ブレーキ/タイヤ側面の密度が十分",
+      "夜にテールランプが発光しブルームが乗る",
+      "走行中もサスに連動して姿勢が動く",
+      "LOD切替で目立つポップがない",
+    ];
+    const biomes = [
+      ["海岸", "#0ea5e9", "砂浜・都市"],
+      ["砂漠", "#d97706", "サボテン・直線"],
+      ["ジャングル", "#16a34a", "密林・ワインディング"],
+      ["火山山岳", "#78716c", "高標高・ヘアピン"],
+      ["農地平原", "#a3b84a", "畑・高速・風車"],
+      ["湿地湖", "#0f9b8e", "湖・川・滝"],
+    ];
+    const nextPrompt = `「M0を実施してください。
+  ・Three.jsを導入し、game/core と systems/camera、render/Pipeline の基盤を作成
+  ・ショールーム(床・ライト・周回カメラ)を表示
+  ・scripts/pack.mjs で1ファイルHTMLを出力し、npm run build が通ることを確認
+  ・docs/PROGRESS.md を作成」
+
+その後は「M1を実施」「M2を実施」…と順に指示すれば進行できます。`;
+
+    let cumLines = 0;
+    const roadmapHtml = phases.map((p) => {
+      cumLines += p.lines;
+      return `
+        <div class="tl-item">
+          <span class="tl-dot"></span>
+          <div class="card">
+            <div class="tl-head">
+              <span class="mono text-orange-400 font-bold">${esc(p.id)}</span>
+              <h3 class="font-bold" style="font-size:1.125rem">${esc(p.name)}</h3>
+              <span class="ml-auto text-xs mono text-slate-400">+${fmt(p.lines)} / 累計 ${fmt(cumLines)}</span>
+            </div>
+            <p class="text-sm text-slate-300 mb-3">${esc(p.goal)}</p>
+            <div class="tl-prog-bg"><div class="tl-prog-fg" style="width:${(cumLines / phaseTotal) * 100}%"></div></div>
+            <div class="grid-2" style="gap:1rem">
+              <div>
+                <div class="text-xs text-slate-500 mb-1-5">成果物</div>
+                ${bullets(p.deliverables)}
+              </div>
+              <div>
+                <div class="text-xs text-slate-500 mb-1-5">合格基準</div>
+                <ul class="bullets">${p.accept.map((a) => `<li><span class="check-arrow">✓</span><span>${esc(a)}</span></li>`).join("")}</ul>
+              </div>
+            </div>
+          </div>
+        </div>`;
+    }).join("");
+
+    document.getElementById("appMain").innerHTML = `
+      <section id="overview" class="section hero">
+        <p class="mono hero-tag">DESIGN DOCUMENT v1.0</p>
+        <h1 class="hero-h1">
+          オープンワールド・レーシング<br />
+          <span class="grad-text">最低40,000行(目標48,000行)・最終1ファイルHTML</span> 制作設計書
+        </h1>
+        <p class="lead">
+          「Forza Horizon 5風」の雰囲気を目標にした、ブラウザで動くレーシングゲームの制作計画です。
+          <b>車のグラフィックを最優先</b>、次に<b>コース・ワールド(12km四方の大型マップ)</b>の順で品質を積み上げます。
+          外部アセットは使わず、形状・テクスチャ・音をすべてコードで生成し、最終的に1つのHTMLに結合します。
+          車名・ロゴ・ブランド・固有アセットはすべてオリジナルとし、実在のものは使いません。
+        </p>
+
+        <div class="kpi-grid">
+          ${[
+            ["総行数", fmt(totalLines), "最低ライン40,000行を超過"],
+            ["車グラフィック", fmt(carLines), `${Math.round((carLines / totalLines) * 100)}% / 最優先`],
+            ["ワールド", fmt(courseLines), `${Math.round((courseLines / totalLines) * 100)}% / 12km四方`],
+            ["フェーズ", `${phases.length}`, "M0〜M9"],
+          ].map(([k, v, s]) => `
+            <div class="kpi-card">
+              <div class="kpi-label">${esc(k)}</div>
+              <div class="kpi-val">${esc(v)}</div>
+              <div class="kpi-sub">${esc(s)}</div>
+            </div>`).join("")}
+        </div>
+
+        <div class="callout callout-orange">
+          <b class="text-orange-300">設計の核心:</b> 「車が一番目立つ」ため、先に <b>ショールームだけで完結する車ビューア</b> を作り、
+          車の見栄え(形状→塗装→反射→ディテール)を完成させてからコースと物理を載せます。
+          手続き生成の形状は破綻しやすいので、<b>最初の1台で品質を詰め → パラメータ化 → 16台に展開</b> します。
+        </div>
+      </section>
+
+      <section id="tech" class="section">
+        ${sectionHead("01", "技術前提・方針")}
+        <div class="grid-2">
+          ${techDecisions.map((t) => card(t.k, `<p class="text-sm text-slate-300 leading-relaxed">${esc(t.v)}</p>`)).join("")}
+        </div>
+        <p class="mt-4 text-sm text-slate-400">
+          ※ 40,000行は「最低ライン」、本計画の目標は48,000行です(品質が上がるなら超過は歓迎、意味のない水増しはしません)。行数はTypeScriptの自作コード(データ表を含む)で数え、ライブラリ(Three.js)は含みません。
+          最終成果物は1つのHTMLファイルになりますが、開発中は上限900行程度のモジュールに分割して管理します。
+        </p>
+      </section>
+
+      <section id="budget" class="section">
+        ${sectionHead("02", "行数配分(合計 48,000行 / 最低ライン 40,000行)")}
+        <div class="stack-bar">
+          ${groups.map((g) => {
+            const pct = (groupTotal(g) / totalLines) * 100;
+            return `<div class="stack-seg" title="${esc(g.name)} ${fmt(groupTotal(g))}" style="width:${pct}%;background:${g.color}">${pct > 8 ? Math.round(pct) + "%" : ""}</div>`;
+          }).join("")}
+        </div>
+        <p class="text-xs text-slate-500 mb-6">グループをクリックするとファイル別の配分が開きます。</p>
+
+        <div class="acc-list">
+          ${groups.map((g) => {
+            const isOpen = g.id === "car";
+            return `
+              <div class="acc-item" data-group="${g.id}">
+                <button class="acc-btn" type="button" aria-expanded="${isOpen}">
+                  <span class="acc-dot" style="background:${g.color}"></span>
+                  <span class="acc-name">${esc(g.name)}</span>
+                  <span class="acc-prio">${esc(g.priority)}</span>
+                  <span class="mono acc-lines">${fmt(groupTotal(g))}</span>
+                  <span class="acc-caret">${isOpen ? "▲" : "▼"}</span>
+                </button>
+                <div class="acc-body" ${isOpen ? "" : "hidden"}>
+                  <table><tbody>
+                    ${g.modules.map((m) => `
+                      <tr class="mod-row">
+                        <td class="mono mod-path">${esc(m.path)}</td>
+                        <td class="mono mod-lines">${fmt(m.lines)}</td>
+                        <td class="mod-note">${esc(m.note)}</td>
+                        <td class="mod-bar-cell"><div class="mod-bar-bg"><div class="mod-bar-fg" style="width:${(m.lines / 2600) * 100}%;background:${g.color}"></div></div></td>
+                      </tr>`).join("")}
+                  </tbody></table>
+                </div>
+              </div>`;
+          }).join("")}
+        </div>
+      </section>
+
+      <section id="arch" class="section">
+        ${sectionHead("03", "ファイル構成と1ファイル化")}
+        <div class="grid-arch">
+          <div class="col-span-3">
+            <pre class="pre-box">${esc(fileTree)}</pre>
+          </div>
+          <div class="col-span-2" style="display:flex;flex-direction:column;gap:0.75rem">
+            ${card("1ファイル化の流れ", `
+              <ol class="ol-steps">
+                <li>開発: <code class="text-orange-300">src/game/**</code> を分割編集</li>
+                <li><code class="text-orange-300">npm run build</code> で動作確認</li>
+                <li><code class="text-orange-300">node scripts/pack.mjs</code> が esbuild で全モジュールを結合</li>
+                <li>JSを <code class="text-orange-300">&lt;script&gt;</code> へインライン化し、1枚のHTMLを出力</li>
+                <li>行数を集計して予算と比較</li>
+              </ol>`)}
+            ${card("依存の向き(下→上のみ許可)", `
+              <p class="text-sm text-slate-300 leading-relaxed">
+                core → math/debug<br />
+                car / world / physics → core<br />
+                render → car, world<br />
+                ai / ui / audio → physics, car, world<br />
+                systems → 全体を統括
+              </p>`)}
+          </div>
+        </div>
+      </section>
+
+      <section id="car" class="section">
+        ${sectionHead("04", "車グラフィック設計(最優先)")}
+        <div class="grid-2">
+          ${carStages.map((s) => card(s.title, bullets(s.items), "#f97316")).join("")}
+        </div>
+        <h3 class="mt-8 mb-3 font-semibold">車種ラインナップ(すべてオリジナル設計・16台)</h3>
+        <div class="chips">
+          ${carLineup.map((c, i) => `
+            <span class="chip"><span class="mono text-orange-400" style="margin-right:0.375rem">${String(i + 1).padStart(2, "0")}</span>${esc(c)}</span>`).join("")}
+        </div>
+        <div class="mt-6 card" style="background:rgba(255,255,255,0.03);padding:1rem">
+          <h4 class="font-semibold mb-2 text-sm">車の品質チェックリスト(M1・M2の合格条件)</h4>
+          <div class="check-grid">
+            ${checklistItems.map((t) => `<label class="check-label"><input type="checkbox" /><span>${esc(t)}</span></label>`).join("")}
+          </div>
+        </div>
+      </section>
+
+      <section id="course" class="section">
+        ${sectionHead("05", "コース・ワールド設計(第2優先 / 12km四方に拡大)")}
+        <div class="callout callout-cyan">
+          <div class="world-metrics">
+            <div>
+              <div class="text-xs" style="color:rgba(165,243,252,0.8)">ワールド面積</div>
+              <div class="font-extrabold" style="font-size:1.875rem">144<span style="font-size:1rem;font-weight:700;margin-left:0.25rem">km²</span></div>
+            </div>
+            <div>
+              <div class="text-xs" style="color:rgba(165,243,252,0.8)">道路総延長</div>
+              <div class="font-extrabold" style="font-size:1.875rem">約250<span style="font-size:1rem;font-weight:700;margin-left:0.25rem">km</span></div>
+            </div>
+            <div>
+              <div class="text-xs" style="color:rgba(165,243,252,0.8)">行数</div>
+              <div class="font-extrabold" style="font-size:1.875rem">${fmt(courseLines)}<span style="font-size:1rem;font-weight:700;margin-left:0.25rem">行</span></div>
+            </div>
+            <div class="text-sm" style="color:rgba(207,250,254,0.8)">従来案(約4km四方 / 9,000行)から、面積9倍・行数 +3,000行</div>
+          </div>
+          <div class="scale-compare">
+            <div class="text-center">
+              <div class="box-4km"></div>
+              <div class="mt-1 text-slate-400" style="font-size:10px">旧 4km</div>
+            </div>
+            <div class="text-center">
+              <div class="box-12km">${"<div></div>".repeat(9)}</div>
+              <div class="mt-1 text-cyan-200" style="font-size:10px">新 12km</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="table-wrap mb-6">
+          <table class="text-sm"><tbody>
+            ${worldSpec.map((w) => `
+              <tr class="mod-row">
+                <td class="text-cyan-300 whitespace-nowrap font-semibold" style="padding:0.625rem 1rem;vertical-align:top">${esc(w.k)}</td>
+                <td class="text-slate-300" style="padding:0.625rem 1rem">${esc(w.v)}</td>
+              </tr>`).join("")}
+          </tbody></table>
+        </div>
+
+        <div class="grid-2">
+          ${courseStages.map((s) => card(s.title, bullets(s.items), "#22d3ee")).join("")}
+        </div>
+        <div class="biome-strip">
+          ${biomes.map(([n, c, d]) => `
+            <div class="biome-cell" style="background:${c}">
+              <div class="text-sm">${esc(n)}</div>
+              <div style="font-weight:400;opacity:0.8;margin-top:0.25rem">${esc(d)}</div>
+            </div>`).join("")}
+        </div>
+      </section>
+
+      <section id="input" class="section">
+        ${sectionHead("06", "操作方法(キーボード / スマホ / Xbox / Switch Pro)")}
+        <div class="callout callout-teal text-sm leading-relaxed">
+          <b class="text-teal-300">4種類の操作デバイスに対応:</b> PCキーボード、スマホのタッチ(画面操作・傾き)、Xboxコントローラー、Nintendo Switch Proコントローラー。
+          すべて共通の「アクション層」に集約するので、デバイスを途中で切り替えても同じ車が同じように動きます。
+          入力まわりの配分は <b class="mono">${fmt(inputLines)}</b> 行(専用モジュール9本)です。
+        </div>
+
+        <div class="pipeline">
+          ${inputPipeline.map((p, i) => `
+            <div class="pipe-step">
+              <div class="pipe-box">
+                <div class="text-xs text-teal-300 font-bold">${esc(p.n)}</div>
+                <div class="text-xs text-slate-400 mt-1 leading-relaxed">${esc(p.d)}</div>
+              </div>
+              ${i < inputPipeline.length - 1 ? `<span class="text-slate-500">→</span>` : ""}
+            </div>`).join("")}
+        </div>
+
+        <div class="grid-2">
+          ${inputDevices.map((d) => card("", `
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.75rem">
+              <h3 class="font-semibold" style="color:#fff">${esc(d.name)}</h3>
+              <span class="mono tag-teal">${esc(d.tag)}</span>
+            </div>
+            ${bullets(d.items)}`, "#2dd4bf")).join("")}
+        </div>
+
+        <h3 class="mt-8 mb-3 font-semibold">既定の割当表</h3>
+        <div class="table-wrap">
+          <table class="ctrl-table">
+            <thead>
+              <tr>
+                <th>操作</th>
+                <th>キーボード</th>
+                <th class="text-emerald-300">Xbox</th>
+                <th class="text-rose-300">Switch Pro</th>
+                <th class="text-teal-300">スマホ</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${controlMap.map((c) => `
+                <tr>
+                  <td class="font-semibold whitespace-nowrap">${esc(c.a)}</td>
+                  <td class="mono text-orange-300 whitespace-nowrap">${esc(c.kb)}</td>
+                  <td class="text-slate-300 whitespace-nowrap">${esc(c.xbox)}</td>
+                  <td class="text-slate-300 whitespace-nowrap">${esc(c.pro)}</td>
+                  <td class="text-slate-300">${esc(c.touch)}</td>
+                </tr>`).join("")}
+            </tbody>
+          </table>
+        </div>
+        <p class="text-xs text-slate-500 mt-3">
+          ※ ボタンは「位置」基準で割当(下ボタンはXboxではA、Switch ProではB)。画面上の表示は接続中のコントローラーに合わせて自動で切り替えます。
+          全割当はリマップ可能で、設定はlocalStorageに保存します。
+        </p>
+      </section>
+
+      <section id="perf" class="section">
+        ${sectionHead("07", "パフォーマンス予算")}
+        <div class="grid-sm-2">
+          ${perfBudget.map((p) => `
+            <div class="perf-item">
+              <span class="text-slate-300">${esc(p.k)}</span>
+              <span class="mono text-orange-300 text-right">${esc(p.v)}</span>
+            </div>`).join("")}
+        </div>
+      </section>
+
+      <section id="roadmap" class="section">
+        ${sectionHead("08", "ロードマップ(M0〜M9)")}
+        <p class="text-sm text-slate-400 mb-5">フェーズ合計: <b class="mono" style="color:#fff">${fmt(phaseTotal)}</b> 行。各フェーズ末に必ずビルドと目視確認を行います。</p>
+        <div class="timeline">${roadmapHtml}</div>
+      </section>
+
+      <section id="flow" class="section">
+        ${sectionHead("09", "分割制作ワークフロー")}
+        <ol class="flow-list">
+          ${workflow.map((w, i) => `
+            <li class="flow-item">
+              <span class="mono text-orange-400 font-bold" style="font-size:1.125rem;line-height:1">${String(i + 1).padStart(2, "0")}</span>
+              <span class="text-sm text-slate-300 leading-relaxed">${esc(w)}</span>
+            </li>`).join("")}
+        </ol>
+        <div class="mt-6 card" style="background:rgba(255,255,255,0.03)">
+          <h4 class="font-semibold mb-3 text-sm">次のセッションの指示例</h4>
+          <pre class="pre-box" style="white-space:pre-wrap;border:0">${esc(nextPrompt)}</pre>
+        </div>
+      </section>
+
+      <section id="risk" class="section">
+        ${sectionHead("10", "リスクと対策")}
+        <div class="risk-list">
+          ${risks.map((r) => `
+            <div class="risk-card">
+              <div><span class="text-rose-400 font-semibold" style="margin-right:0.5rem">RISK</span>${esc(r.r)}</div>
+              <div class="text-slate-300"><span class="text-emerald-400 font-semibold" style="margin-right:0.5rem">対策</span>${esc(r.c)}</div>
+            </div>`).join("")}
+        </div>
+        <div class="mt-10 text-center">
+          <button id="downloadBottom" class="btn-primary btn-lg">この設計書を Markdown でダウンロード</button>
+          <p class="text-xs text-slate-500 mt-3">承認いただければ、次は M0(基盤とショールーム)から実装を開始します。</p>
+        </div>
+      </section>
+    `;
+
+    // Interactions
+    document.getElementById("downloadTop").addEventListener("click", downloadMarkdown);
+    document.getElementById("downloadBottom").addEventListener("click", downloadMarkdown);
+
+    // Accordion
+    document.querySelectorAll(".acc-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const item = btn.closest(".acc-item");
+        const body = item.querySelector(".acc-body");
+        const caret = btn.querySelector(".acc-caret");
+        const willOpen = body.hasAttribute("hidden");
+
+        document.querySelectorAll(".acc-item").forEach((other) => {
+          other.querySelector(".acc-body").setAttribute("hidden", "");
+          other.querySelector(".acc-btn").setAttribute("aria-expanded", "false");
+          other.querySelector(".acc-caret").textContent = "▼";
+        });
+
+        if (willOpen) {
+          body.removeAttribute("hidden");
+          btn.setAttribute("aria-expanded", "true");
+          caret.textContent = "▲";
+        }
+      });
+    });
+
+    // Active Nav Tracking
+    const setActiveNav = (id) => {
+      document.querySelectorAll("[data-nav]").forEach((el) => {
+        el.classList.toggle("active", el.getAttribute("data-nav") === id);
+      });
+    };
+    const obs = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) setActiveNav(e.target.id);
+        });
+      },
+      { rootMargin: "-30% 0px -60% 0px" }
+    );
+    nav.forEach((n) => {
+      const el = document.getElementById(n.id);
+      if (el) obs.observe(el);
+    });
+  </script>
+</body>
+</html>
